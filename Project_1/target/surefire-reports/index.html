@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Akshay Jambhale\eclipse-workspace\Project_1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,  1 skipped,  15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode" class="method navigator-link" hash-for-method="validateCheckoutProcess">validateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_3_Edit_Profile" class="method navigator-link" hash-for-method="editprofileinfo">editprofileinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail" class="method navigator-link" hash-for-method="invalid_email">invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd" class="method navigator-link" hash-for-method="invalid_password">invalid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_8_AddToCart" class="method navigator-link" hash-for-method="productAddedToTheCard">productAddedToTheCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_9_UpdateProductsQty" class="method navigator-link" hash-for-method="productQTYUpdate">productQTYUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_4_SearchProduct" class="method navigator-link" hash-for-method="searchproduct">searchproduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_5_Search_with_Filters" class="method navigator-link" hash-for-method="serachResult_Filtersfunctionality">serachResult_Filtersfunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd" class="method navigator-link" hash-for-method="validTC">validTC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode" class="method navigator-link" hash-for-method="validateCheckoutProcess">validateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin" class="method navigator-link" hash-for-method="validateCheckoutProcess">validateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_10_CheckoutProcess" class="method navigator-link" hash-for-method="validateCheckoutProcess">validateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_13_FiveStarRating" class="method navigator-link" hash-for-method="validateCheckoutProcess">validateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_11_PaymentMethodSelection" class="method navigator-link" hash-for-method="validateCheckoutProcess">validateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_6_VerifyProductDetail" class="method navigator-link" hash-for-method="verifyNcssryProductinfo">verifyNcssryProductinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amazon_EtoE.Project_1.TC_7_ProductSorting" class="method navigator-link" hash-for-method="verifyProductSortedAccrdngToPrice">verifyProductSortedAccrdngToPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_12_ApplyForCouponCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutProcess">
+                  </a> <!-- validateCheckoutProcess -->
+                  <span class="method-name">validateCheckoutProcess</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/gp/cart/view.html?ref_=nav_cart&quot; aria-label=&quot;3 items in cart&quot; class=&quot;nav-a nav-a-2 nav-progressive-attribute&quot; id=&quot;nav-cart&quot;&gt;...&lt;/a&gt; is not clickable at point (1459, 30). Other element would receive the click: &lt;div class=&quot;a-changeover-inner&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=135.0.3179.85)
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [51f4b6f85d0aeb33d48eb2eeb22d41ad, clickElement {id=f.89661EDDCB70DD2E77845F7D0D9D22FE.d.3856A81DC4EEA07702A9B804F78DA7BF.e.763}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60110}, msedge: {msedgedriverVersion: 135.0.3179.98 (4215a10badb6..., userDataDir: C:\Users\AKSHAY~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60110/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (51f4b6f85d0aeb33d48eb2eeb22d41ad)] -&gt; id: nav-cart]
+Session ID: 51f4b6f85d0aeb33d48eb2eeb22d41ad
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at amazon_EtoE.Project_1.SearchProductPage.clickAddCart(SearchProductPage.java:91)
+	at amazon_EtoE.Project_1.TC_12_ApplyForCouponCode.validateCheckoutProcess(TC_12_ApplyForCouponCode.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutProcess">
+                  </a> <!-- validateCheckoutProcess -->
+                  <span class="method-name">validateCheckoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_5_Search_with_Filters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="serachResult_Filtersfunctionality">
+                  </a> <!-- serachResult_Filtersfunctionality -->
+                  <span class="method-name">serachResult_Filtersfunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_4_SearchProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchproduct">
+                  </a> <!-- searchproduct -->
+                  <span class="method-name">searchproduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validTC">
+                  </a> <!-- validTC -->
+                  <span class="method-name">validTC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_email">
+                  </a> <!-- invalid_email -->
+                  <span class="method-name">invalid_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_9_UpdateProductsQty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productQTYUpdate">
+                  </a> <!-- productQTYUpdate -->
+                  <span class="method-name">productQTYUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_12_ApplyForCouponCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutProcess">
+                  </a> <!-- validateCheckoutProcess -->
+                  <span class="method-name">validateCheckoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_8_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productAddedToTheCard">
+                  </a> <!-- productAddedToTheCard -->
+                  <span class="method-name">productAddedToTheCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_3_Edit_Profile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editprofileinfo">
+                  </a> <!-- editprofileinfo -->
+                  <span class="method-name">editprofileinfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_6_VerifyProductDetail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNcssryProductinfo">
+                  </a> <!-- verifyNcssryProductinfo -->
+                  <span class="method-name">verifyNcssryProductinfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid_password">
+                  </a> <!-- invalid_password -->
+                  <span class="method-name">invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_10_CheckoutProcess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutProcess">
+                  </a> <!-- validateCheckoutProcess -->
+                  <span class="method-name">validateCheckoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_13_FiveStarRating</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutProcess">
+                  </a> <!-- validateCheckoutProcess -->
+                  <span class="method-name">validateCheckoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_11_PaymentMethodSelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckoutProcess">
+                  </a> <!-- validateCheckoutProcess -->
+                  <span class="method-name">validateCheckoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_EtoE.Project_1.TC_7_ProductSorting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSortedAccrdngToPrice">
+                  </a> <!-- verifyProductSortedAccrdngToPrice -->
+                  <span class="method-name">verifyProductSortedAccrdngToPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Akshay Jambhale\eclipse-workspace\Project_1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TC_edge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_3_Edit_Profile&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_4_SearchProduct&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_5_Search_with_Filters&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_6_VerifyProductDetail&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_7_ProductSorting&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_8_AddToCart&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_9_UpdateProductsQty&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_10_CheckoutProcess&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_11_PaymentMethodSelection&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_12_ApplyForCouponCode&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_13_FiveStarRating&quot;/&gt;
+      &lt;class name=&quot;amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_edge --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_edge (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateCheckoutProcess')
+data.setCell(0, 2, 'amazon_EtoE.Project_1.TC_11_PaymentMethodSelection')
+data.setCell(0, 3, 46174);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateCheckoutProcess')
+data.setCell(1, 2, 'amazon_EtoE.Project_1.TC_10_CheckoutProcess')
+data.setCell(1, 3, 42261);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateCheckoutProcess')
+data.setCell(2, 2, 'amazon_EtoE.Project_1.TC_12_ApplyForCouponCode')
+data.setCell(2, 3, 25258);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductSortedAccrdngToPrice')
+data.setCell(3, 2, 'amazon_EtoE.Project_1.TC_7_ProductSorting')
+data.setCell(3, 3, 25011);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'productQTYUpdate')
+data.setCell(4, 2, 'amazon_EtoE.Project_1.TC_9_UpdateProductsQty')
+data.setCell(4, 3, 21656);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyNcssryProductinfo')
+data.setCell(5, 2, 'amazon_EtoE.Project_1.TC_6_VerifyProductDetail')
+data.setCell(5, 3, 19859);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateCheckoutProcess')
+data.setCell(6, 2, 'amazon_EtoE.Project_1.TC_13_FiveStarRating')
+data.setCell(6, 3, 19482);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'serachResult_Filtersfunctionality')
+data.setCell(7, 2, 'amazon_EtoE.Project_1.TC_5_Search_with_Filters')
+data.setCell(7, 3, 18994);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateCheckoutProcess')
+data.setCell(8, 2, 'amazon_EtoE.Project_1.TC_12_ApplyForCouponCode')
+data.setCell(8, 3, 18373);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'editprofileinfo')
+data.setCell(9, 2, 'amazon_EtoE.Project_1.TC_3_Edit_Profile')
+data.setCell(9, 3, 18198);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'productAddedToTheCard')
+data.setCell(10, 2, 'amazon_EtoE.Project_1.TC_8_AddToCart')
+data.setCell(10, 3, 17762);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchproduct')
+data.setCell(11, 2, 'amazon_EtoE.Project_1.TC_4_SearchProduct')
+data.setCell(11, 3, 16152);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateCheckoutProcess')
+data.setCell(12, 2, 'amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin')
+data.setCell(12, 3, 9817);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validTC')
+data.setCell(13, 2, 'amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd')
+data.setCell(13, 3, 8217);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'invalid_password')
+data.setCell(14, 2, 'amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd')
+data.setCell(14, 3, 6855);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'invalid_email')
+data.setCell(15, 2, 'amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail')
+data.setCell(15, 3, 4884);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalid_email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• Login fails for an incorrect email address.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCheckoutProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The user is able to apply for a coupon code. Also an incorrect The coupon code has been entered.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCheckoutProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• Reached Till Cart Page without Login to the Amazon Application.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCheckoutProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The order review section has been displayed.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalid_password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• Login fails for an incorrect password.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">productAddedToTheCard</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The product was added to the cart.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCheckoutProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The Five Star Rating has been given to the Last Ordered Product.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">serachResult_Filtersfunctionality</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The product search was successful.</span>
+                <span class="reporter-method-output">• Price range has been selected : ✓</span>
+                <span class="reporter-method-output">• Category has been selected : ✓</span>
+                <span class="reporter-method-output">• The category and price range filter both are working properly.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editprofileinfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The profile data has been edited successfully.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCheckoutProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The user is able to select each payment method one at a time.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyNcssryProductinfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• Product Title: ✓</span>
+                <span class="reporter-method-output">• Product Price: ✓</span>
+                <span class="reporter-method-output">• Product Reviews: ✓</span>
+                <span class="reporter-method-output">• Product Decreption: ✓</span>
+                <span class="reporter-method-output">• The product detail page displays all necessary information, including the product title, price, reviews and description.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">productQTYUpdate</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The product was added to the cart.</span>
+                <span class="reporter-method-output">• The Product Qty has been Updated.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validTC</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductSortedAccrdngToPrice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• Price: Low to High sorting : ✓</span>
+                <span class="reporter-method-output">• Price: High to Low sorting : ✓</span>
+                <span class="reporter-method-output">• Avg. Customer Review sorting : ✓</span>
+                <span class="reporter-method-output">• Product sorting is done using filters for price, reviews, and relevancy.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchproduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+                <span class="reporter-method-output">• The product search was successful.</span>
+                <span class="reporter-method-output">TC Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateCheckoutProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">• The user has successfully logged into their Amazon account.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validTC</span>
+                <span class="method-start">9741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">23302 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">27103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_email</span>
+                <span class="method-start">34768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">39828 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">43542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalid_password</span>
+                <span class="method-start">48413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">57255 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_3_Edit_Profile</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">60838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editprofileinfo</span>
+                <span class="method-start">68658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">87024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_4_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">90672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchproduct</span>
+                <span class="method-start">96670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">113311 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_5_Search_with_Filters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">116990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">serachResult_Filtersfunctionality</span>
+                <span class="method-start">122690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">142001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_6_VerifyProductDetail</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">145662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNcssryProductinfo</span>
+                <span class="method-start">151398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">171502 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_7_ProductSorting</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">175237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSortedAccrdngToPrice</span>
+                <span class="method-start">184661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">210430 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_8_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">214161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productAddedToTheCard</span>
+                <span class="method-start">221186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">239170 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_9_UpdateProductsQty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">242847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productQTYUpdate</span>
+                <span class="method-start">248486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">270353 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_10_CheckoutProcess</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">274014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutProcess</span>
+                <span class="method-start">287885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">330445 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_11_PaymentMethodSelection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">334255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutProcess</span>
+                <span class="method-start">350523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">396975 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_12_ApplyForCouponCode</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">400844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutProcess</span>
+                <span class="method-start">405719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">424135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">427895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutProcess</span>
+                <span class="method-start">433257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">458834 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_13_FiveStarRating</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">462586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutProcess</span>
+                <span class="method-start">467993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">487674 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(edge)</span>
+                <span class="method-start">491408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckoutProcess</span>
+                <span class="method-start">497816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">507892 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

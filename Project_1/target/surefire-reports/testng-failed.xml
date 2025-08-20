@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="TC_edge(failed)" verbose="0">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode">
+        <methods>
+          <include name="browserquit"/>
+          <include name="browserlaunch"/>
+          <include name="validateCheckoutProcess"/>
+        </methods>
+      </class> <!-- amazon_EtoE.Project_1.TC_12_ApplyForCouponCode -->
+    </classes>
+  </test> <!-- TC_edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

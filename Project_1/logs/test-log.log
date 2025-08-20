@@ -1,0 +1,631 @@
+2025-08-11 01:44:55 INFO  TC_1_Login_with_correct_EmailPwd:16 - **** TC 1 Starterd ****
+2025-08-11 01:45:00 INFO  TC_1_Login_with_correct_EmailPwd:25 - Entered the correct Email ID.
+2025-08-11 01:45:01 INFO  TC_1_Login_with_correct_EmailPwd:28 - Entered the correct Password.
+2025-08-11 01:45:01 INFO  TC_1_Login_with_correct_EmailPwd:30 - **** TC 1 Completed ****
+2025-08-11 01:45:14 INFO  TC_2_A_Login_with_incorrectEmail:16 - **** TC 2A Starterd ****
+2025-08-11 01:45:16 INFO  TC_2_A_Login_with_incorrectEmail:25 - Entered an Incorrect Email Address.
+2025-08-11 01:45:16 INFO  TC_2_A_Login_with_incorrectEmail:29 - **** TC 2A Completed ****
+2025-08-11 01:45:28 INFO  TC_2_B_Login_with_incorrectPwd:16 - **** TC 2B Starterd ****
+2025-08-11 01:45:32 INFO  TC_2_B_Login_with_incorrectPwd:25 - Entered the correct Email ID.
+2025-08-11 01:45:33 INFO  TC_2_B_Login_with_incorrectPwd:28 - Entered an Incorrect Password.
+2025-08-11 01:45:33 INFO  TC_2_B_Login_with_incorrectPwd:30 - **** TC 2B Completed ****
+2025-08-11 01:45:45 INFO  TC_3_Edit_Profile:16 - **** TC 3 Starterd ****
+2025-08-11 01:45:48 INFO  TC_3_Edit_Profile:25 - Entered the correct Email ID.
+2025-08-11 01:45:50 INFO  TC_3_Edit_Profile:28 - Entered the correct Password.
+2025-08-11 01:45:53 INFO  TC_3_Edit_Profile:32 - Clicked on Manage Profile.
+2025-08-11 01:45:54 INFO  TC_3_Edit_Profile:34 - Clicked on View button.
+2025-08-11 01:45:58 INFO  TC_3_Edit_Profile:38 - Clicked on the Age Group.
+2025-08-11 01:45:59 INFO  TC_3_Edit_Profile:40 - Clicked on the Add Button.
+2025-08-11 01:45:59 INFO  TC_3_Edit_Profile:42 - Age Group Selected.
+2025-08-11 01:45:59 INFO  TC_3_Edit_Profile:44 - Saved selected age data.
+2025-08-11 01:46:00 INFO  TC_3_Edit_Profile:46 - Profile data edited successfully.
+2025-08-11 01:46:00 INFO  TC_3_Edit_Profile:48 - **** TC 3 Completed ****
+2025-08-11 01:46:08 INFO  TC_4_SearchProduct:16 - **** TC 4 Starterd ****
+2025-08-11 01:46:12 INFO  TC_4_SearchProduct:25 - Entered the correct Email ID.
+2025-08-11 01:46:13 INFO  TC_4_SearchProduct:28 - Entered the correct Password.
+2025-08-11 01:46:20 INFO  TC_4_SearchProduct:31 - Searched for a product.
+2025-08-11 01:46:21 INFO  TC_4_SearchProduct:35 - The product search was successful.
+2025-08-11 01:46:21 INFO  TC_4_SearchProduct:38 - **** TC 4 Completed ****
+2025-08-11 01:46:28 INFO  TC_5_Search_with_Filters:16 - **** TC 5 Starterd ****
+2025-08-11 01:46:31 INFO  TC_5_Search_with_Filters:25 - Entered the correct Email ID.
+2025-08-11 01:46:33 INFO  TC_5_Search_with_Filters:28 - Entered the correct Password.
+2025-08-11 01:46:38 INFO  TC_5_Search_with_Filters:31 - Searched for a product.
+2025-08-11 01:46:38 INFO  TC_5_Search_with_Filters:35 - The product search was successful.
+2025-08-11 01:46:38 INFO  TC_5_Search_with_Filters:37 - Price range selected ✅
+2025-08-11 01:46:42 INFO  TC_5_Search_with_Filters:39 - Category selected ✅
+2025-08-11 01:46:42 INFO  TC_5_Search_with_Filters:41 - **** TC 5 Completed ****
+2025-08-11 01:46:50 INFO  TC_6_VerifyProductDetail:17 - **** TC 6 Starterd ****
+2025-08-11 01:46:53 INFO  TC_6_VerifyProductDetail:26 - Entered the correct Email ID.
+2025-08-11 01:46:55 INFO  TC_6_VerifyProductDetail:29 - Entered the correct Password.
+2025-08-11 01:47:01 INFO  TC_6_VerifyProductDetail:32 - Searched for a product.
+2025-08-11 01:47:05 INFO  TC_6_VerifyProductDetail:36 - Clicked on the Search Product.
+2025-08-11 01:47:06 INFO  TC_6_VerifyProductDetail:44 - Checked all necessary information, including the product title, price, reviews and description.
+2025-08-11 01:47:06 INFO  TC_6_VerifyProductDetail:46 - **** TC 6 Completed ****
+2025-08-11 01:47:13 INFO  TC_7_ProductSorting:17 - **** TC 7 Starterd ****
+2025-08-11 01:47:16 INFO  TC_7_ProductSorting:26 - Entered the correct Email ID.
+2025-08-11 01:47:18 INFO  TC_7_ProductSorting:29 - Entered the correct Password.
+2025-08-11 01:47:25 INFO  TC_7_ProductSorting:32 - Searched for a product.
+2025-08-11 01:47:32 INFO  TC_7_ProductSorting:36 - Product sorting is done using filters for price, reviews, and relevancy.
+2025-08-11 01:47:32 INFO  TC_7_ProductSorting:38 - **** TC 7 Completed ****
+2025-08-11 01:47:40 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-11 01:47:44 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-11 01:47:45 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-11 01:47:54 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-11 01:47:55 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-11 01:47:57 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:47:57 INFO  TC_8_AddToCart:42 - The product was added to the cart.
+2025-08-11 01:47:57 INFO  TC_8_AddToCart:44 - **** TC 8 Completed ****
+2025-08-11 01:48:04 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-11 01:48:09 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-11 01:48:11 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-11 01:48:17 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-11 01:48:17 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-11 01:48:19 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:48:19 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-11 01:48:19 INFO  TC_9_UpdateProductsQty:44 - Clicked on '+' sign to Add Qty.
+2025-08-11 01:48:27 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-11 01:48:31 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-11 01:48:32 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-11 01:48:38 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-11 01:48:38 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-11 01:48:40 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:48:40 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-11 01:48:40 INFO  TC_9_UpdateProductsQty:44 - Clicked on '+' sign to Add Qty.
+2025-08-11 01:48:52 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-11 01:48:57 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-11 01:48:58 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-11 01:49:05 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-11 01:49:06 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-11 01:49:07 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:49:07 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-11 01:49:07 INFO  TC_9_UpdateProductsQty:44 - Clicked on '+' sign to Add Qty.
+2025-08-11 01:49:15 INFO  TC_10_CheckoutProcess:17 - **** TC 10 Starterd ****
+2025-08-11 01:49:20 INFO  TC_10_CheckoutProcess:26 - Entered the correct Email ID.
+2025-08-11 01:49:21 INFO  TC_10_CheckoutProcess:29 - Entered the correct Password.
+2025-08-11 01:49:27 INFO  TC_10_CheckoutProcess:32 - Searched for a product.
+2025-08-11 01:49:28 INFO  TC_10_CheckoutProcess:36 - Clicked on Add to Cart Button.
+2025-08-11 01:49:29 INFO  TC_10_CheckoutProcess:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:49:35 INFO  TC_10_CheckoutProcess:42 - Clicked on Proceed to Buy Button.
+2025-08-11 01:49:35 INFO  TC_10_CheckoutProcess:46 - Validation for Checkout Address: ✓
+2025-08-11 01:49:35 INFO  TC_10_CheckoutProcess:48 - Validation for Payment Method: ✓
+2025-08-11 01:49:35 INFO  TC_10_CheckoutProcess:50 - Validation for Order Review: ✓
+2025-08-11 01:49:35 INFO  TC_10_CheckoutProcess:52 - **** TC 10 Completed ****
+2025-08-11 01:49:42 INFO  TC_11_PaymentMethodSelection:17 - **** TC 11 Starterd ****
+2025-08-11 01:49:46 INFO  TC_11_PaymentMethodSelection:26 - Entered the correct Email ID.
+2025-08-11 01:49:47 INFO  TC_11_PaymentMethodSelection:29 - Entered the correct Password.
+2025-08-11 01:49:54 INFO  TC_11_PaymentMethodSelection:32 - Searched for a product.
+2025-08-11 01:49:54 INFO  TC_11_PaymentMethodSelection:36 - Clicked on Add to Cart Button.
+2025-08-11 01:49:56 INFO  TC_11_PaymentMethodSelection:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:50:00 INFO  TC_11_PaymentMethodSelection:42 - Clicked on Proceed to Buy Button.
+2025-08-11 01:50:02 INFO  TC_11_PaymentMethodSelection:46 - Credit and Debit Card Payment Options: ✓
+2025-08-11 01:50:03 INFO  TC_11_PaymentMethodSelection:48 - Amazon Pay Option: ✓
+2025-08-11 01:50:04 INFO  TC_11_PaymentMethodSelection:50 - UPI Payment Option: ✓
+2025-08-11 01:50:05 INFO  TC_11_PaymentMethodSelection:52 - Another Payment Method: Credit or Debit Card Option: ✓
+2025-08-11 01:50:06 INFO  TC_11_PaymentMethodSelection:54 - Another payment method: Net Banking is availble: ✓
+2025-08-11 01:50:07 INFO  TC_11_PaymentMethodSelection:56 - Another payment method: Other UPI Apps is availble: ✓
+2025-08-11 01:50:09 INFO  TC_11_PaymentMethodSelection:59 - Another payment method: COD / POD: ✓ 
+2025-08-11 01:50:09 INFO  TC_11_PaymentMethodSelection:61 - **** TC 11 Completed ****
+2025-08-11 01:50:18 INFO  TC_12_ApplyForCouponCode:17 - **** TC 12 Starterd ****
+2025-08-11 01:50:23 INFO  TC_12_ApplyForCouponCode:26 - Entered the correct Email ID.
+2025-08-11 01:50:24 INFO  TC_12_ApplyForCouponCode:29 - Entered the correct Password.
+2025-08-11 01:50:31 INFO  TC_12_ApplyForCouponCode:32 - Searched for a product.
+2025-08-11 01:50:31 INFO  TC_12_ApplyForCouponCode:36 - Clicked on Add to Cart Button
+2025-08-11 01:50:33 INFO  TC_12_ApplyForCouponCode:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:50:37 INFO  TC_12_ApplyForCouponCode:42 - Clicked on Proceed to Buy Button.
+2025-08-11 01:50:37 INFO  TC_12_ApplyForCouponCode:46 - Entered incorrect Coupun Code.
+2025-08-11 01:50:37 INFO  TC_12_ApplyForCouponCode:48 - After that Clicked on Apply Button.
+2025-08-11 01:50:39 INFO  TC_12_ApplyForCouponCode:50 - Validation Message Checked.
+2025-08-11 01:50:39 INFO  TC_12_ApplyForCouponCode:52 - **** TC 12 Completed ****
+2025-08-11 01:50:56 INFO  TC_13_FiveStarRating:17 - **** TC 13 Starterd ****
+2025-08-11 01:51:02 INFO  TC_13_FiveStarRating:26 - Entered the correct Email ID.
+2025-08-11 01:51:03 INFO  TC_13_FiveStarRating:29 - Entered the correct Password.
+2025-08-11 01:51:09 INFO  TC_13_FiveStarRating:32 - Clicked on Orders that navigate to the 'Your Orders' details page.
+2025-08-11 01:51:12 INFO  TC_13_FiveStarRating:36 - Clicked on Buy Again option.
+2025-08-11 01:51:13 INFO  TC_13_FiveStarRating:38 - Clicked on Latest Bought Product.
+2025-08-11 01:51:15 INFO  TC_13_FiveStarRating:40 - Clicked on Star Icons.
+2025-08-11 01:51:18 INFO  TC_13_FiveStarRating:44 - Clicked on Write a Review.
+2025-08-11 01:51:18 INFO  TC_13_FiveStarRating:48 - Clicked on the 5th Star.
+2025-08-11 01:51:18 INFO  TC_13_FiveStarRating:52 - **** TC 13 Completed ****
+2025-08-11 01:51:30 INFO  TC_14_CartPageWithoutLogin:17 - **** TC 14 Starterd ****
+2025-08-11 01:51:35 INFO  TC_14_CartPageWithoutLogin:24 - Clicked on Add to Cart Button.
+2025-08-11 01:51:39 INFO  TC_14_CartPageWithoutLogin:26 - Clicked on Go to Cart Button.
+2025-08-11 01:51:39 INFO  TC_14_CartPageWithoutLogin:28 - **** TC 14 Completed ****
+2025-08-11 01:55:32 INFO  TC_1_Login_with_correct_EmailPwd:16 - **** TC 1 Starterd ****
+2025-08-11 01:55:37 INFO  TC_1_Login_with_correct_EmailPwd:25 - Entered the correct Email ID.
+2025-08-11 01:55:38 INFO  TC_1_Login_with_correct_EmailPwd:28 - Entered the correct Password.
+2025-08-11 01:55:38 INFO  TC_1_Login_with_correct_EmailPwd:30 - **** TC 1 Completed ****
+2025-08-11 01:55:49 INFO  TC_2_A_Login_with_incorrectEmail:16 - **** TC 2A Starterd ****
+2025-08-11 01:55:51 INFO  TC_2_A_Login_with_incorrectEmail:25 - Entered an Incorrect Email Address.
+2025-08-11 01:55:51 INFO  TC_2_A_Login_with_incorrectEmail:29 - **** TC 2A Completed ****
+2025-08-11 01:56:00 INFO  TC_2_B_Login_with_incorrectPwd:16 - **** TC 2B Starterd ****
+2025-08-11 01:56:03 INFO  TC_2_B_Login_with_incorrectPwd:25 - Entered the correct Email ID.
+2025-08-11 01:56:05 INFO  TC_2_B_Login_with_incorrectPwd:28 - Entered an Incorrect Password.
+2025-08-11 01:56:05 INFO  TC_2_B_Login_with_incorrectPwd:30 - **** TC 2B Completed ****
+2025-08-11 01:56:17 INFO  TC_3_Edit_Profile:16 - **** TC 3 Starterd ****
+2025-08-11 01:56:21 INFO  TC_3_Edit_Profile:25 - Entered the correct Email ID.
+2025-08-11 01:56:22 INFO  TC_3_Edit_Profile:28 - Entered the correct Password.
+2025-08-11 01:56:26 INFO  TC_3_Edit_Profile:32 - Clicked on Manage Profile.
+2025-08-11 01:56:27 INFO  TC_3_Edit_Profile:34 - Clicked on View button.
+2025-08-11 01:56:30 INFO  TC_3_Edit_Profile:38 - Clicked on the Age Group.
+2025-08-11 01:56:31 INFO  TC_3_Edit_Profile:40 - Clicked on the Add Button.
+2025-08-11 01:56:31 INFO  TC_3_Edit_Profile:42 - Age Group Selected.
+2025-08-11 01:56:32 INFO  TC_3_Edit_Profile:44 - Saved selected age data.
+2025-08-11 01:56:32 INFO  TC_3_Edit_Profile:46 - Profile data edited successfully.
+2025-08-11 01:56:32 INFO  TC_3_Edit_Profile:48 - **** TC 3 Completed ****
+2025-08-11 01:56:39 INFO  TC_4_SearchProduct:16 - **** TC 4 Starterd ****
+2025-08-11 01:56:43 INFO  TC_4_SearchProduct:25 - Entered the correct Email ID.
+2025-08-11 01:56:45 INFO  TC_4_SearchProduct:28 - Entered the correct Password.
+2025-08-11 01:56:52 INFO  TC_4_SearchProduct:31 - Searched for a product.
+2025-08-11 01:56:52 INFO  TC_4_SearchProduct:35 - The product search was successful.
+2025-08-11 01:56:52 INFO  TC_4_SearchProduct:38 - **** TC 4 Completed ****
+2025-08-11 01:57:00 INFO  TC_5_Search_with_Filters:16 - **** TC 5 Starterd ****
+2025-08-11 01:57:04 INFO  TC_5_Search_with_Filters:25 - Entered the correct Email ID.
+2025-08-11 01:57:05 INFO  TC_5_Search_with_Filters:28 - Entered the correct Password.
+2025-08-11 01:57:09 INFO  TC_5_Search_with_Filters:31 - Searched for a product.
+2025-08-11 01:57:12 INFO  TC_5_Search_with_Filters:35 - The product search was successful.
+2025-08-11 01:57:12 INFO  TC_5_Search_with_Filters:37 - Price range selected ✅
+2025-08-11 01:57:15 INFO  TC_5_Search_with_Filters:39 - Category selected ✅
+2025-08-11 01:57:15 INFO  TC_5_Search_with_Filters:41 - **** TC 5 Completed ****
+2025-08-11 01:57:24 INFO  TC_6_VerifyProductDetail:17 - **** TC 6 Starterd ****
+2025-08-11 01:57:28 INFO  TC_6_VerifyProductDetail:26 - Entered the correct Email ID.
+2025-08-11 01:57:29 INFO  TC_6_VerifyProductDetail:29 - Entered the correct Password.
+2025-08-11 01:57:35 INFO  TC_6_VerifyProductDetail:32 - Searched for a product.
+2025-08-11 01:57:40 INFO  TC_6_VerifyProductDetail:36 - Clicked on the Search Product.
+2025-08-11 01:57:40 INFO  TC_6_VerifyProductDetail:44 - Checked all necessary information, including the product title, price, reviews and description.
+2025-08-11 01:57:40 INFO  TC_6_VerifyProductDetail:46 - **** TC 6 Completed ****
+2025-08-11 01:57:47 INFO  TC_7_ProductSorting:17 - **** TC 7 Starterd ****
+2025-08-11 01:57:51 INFO  TC_7_ProductSorting:26 - Entered the correct Email ID.
+2025-08-11 01:57:53 INFO  TC_7_ProductSorting:29 - Entered the correct Password.
+2025-08-11 01:57:59 INFO  TC_7_ProductSorting:32 - Searched for a product.
+2025-08-11 01:58:06 INFO  TC_7_ProductSorting:36 - Product sorting is done using filters for price, reviews, and relevancy.
+2025-08-11 01:58:06 INFO  TC_7_ProductSorting:38 - **** TC 7 Completed ****
+2025-08-11 01:58:15 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-11 01:58:20 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-11 01:58:21 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-11 01:58:27 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-11 01:58:27 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-11 01:58:28 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:58:47 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-11 01:58:52 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-11 01:58:53 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-11 01:58:59 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-11 01:59:00 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-11 01:59:02 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:59:02 INFO  TC_8_AddToCart:42 - The product was added to the cart.
+2025-08-11 01:59:02 INFO  TC_8_AddToCart:44 - **** TC 8 Completed ****
+2025-08-11 01:59:10 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-11 01:59:14 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-11 01:59:15 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-11 01:59:21 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-11 01:59:21 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-11 01:59:23 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 01:59:23 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-11 01:59:23 INFO  TC_9_UpdateProductsQty:44 - Clicked on '+' sign to Add Qty.
+2025-08-11 01:59:27 INFO  TC_9_UpdateProductsQty:46 - Clicked on '-' sign to Remove Qty.
+2025-08-11 01:59:29 INFO  TC_9_UpdateProductsQty:48 - Clicked on Delete to delete All Qty.
+2025-08-11 01:59:29 INFO  TC_9_UpdateProductsQty:50 - **** TC 9 Completed ****
+2025-08-11 01:59:39 INFO  TC_10_CheckoutProcess:17 - **** TC 10 Starterd ****
+2025-08-11 01:59:42 INFO  TC_10_CheckoutProcess:26 - Entered the correct Email ID.
+2025-08-11 01:59:44 INFO  TC_10_CheckoutProcess:29 - Entered the correct Password.
+2025-08-11 01:59:48 INFO  TC_10_CheckoutProcess:32 - Searched for a product.
+2025-08-11 01:59:53 INFO  TC_10_CheckoutProcess:36 - Clicked on Add to Cart Button.
+2025-08-11 01:59:55 INFO  TC_10_CheckoutProcess:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 02:00:00 INFO  TC_10_CheckoutProcess:42 - Clicked on Proceed to Buy Button.
+2025-08-11 02:00:00 INFO  TC_10_CheckoutProcess:46 - Validation for Checkout Address: ✓
+2025-08-11 02:00:00 INFO  TC_10_CheckoutProcess:48 - Validation for Payment Method: ✓
+2025-08-11 02:00:00 INFO  TC_10_CheckoutProcess:50 - Validation for Order Review: ✓
+2025-08-11 02:00:00 INFO  TC_10_CheckoutProcess:52 - **** TC 10 Completed ****
+2025-08-11 02:00:09 INFO  TC_11_PaymentMethodSelection:17 - **** TC 11 Starterd ****
+2025-08-11 02:00:13 INFO  TC_11_PaymentMethodSelection:26 - Entered the correct Email ID.
+2025-08-11 02:00:14 INFO  TC_11_PaymentMethodSelection:29 - Entered the correct Password.
+2025-08-11 02:00:20 INFO  TC_11_PaymentMethodSelection:32 - Searched for a product.
+2025-08-11 02:00:21 INFO  TC_11_PaymentMethodSelection:36 - Clicked on Add to Cart Button.
+2025-08-11 02:00:25 INFO  TC_11_PaymentMethodSelection:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 02:00:28 INFO  TC_11_PaymentMethodSelection:42 - Clicked on Proceed to Buy Button.
+2025-08-11 02:00:29 INFO  TC_11_PaymentMethodSelection:46 - Credit and Debit Card Payment Options: ✓
+2025-08-11 02:00:31 INFO  TC_11_PaymentMethodSelection:48 - Amazon Pay Option: ✓
+2025-08-11 02:00:32 INFO  TC_11_PaymentMethodSelection:50 - UPI Payment Option: ✓
+2025-08-11 02:00:33 INFO  TC_11_PaymentMethodSelection:52 - Another Payment Method: Credit or Debit Card Option: ✓
+2025-08-11 02:00:34 INFO  TC_11_PaymentMethodSelection:54 - Another payment method: Net Banking is availble: ✓
+2025-08-11 02:00:35 INFO  TC_11_PaymentMethodSelection:56 - Another payment method: Other UPI Apps is availble: ✓
+2025-08-11 02:00:36 INFO  TC_11_PaymentMethodSelection:59 - Another payment method: COD / POD: ✓ 
+2025-08-11 02:00:36 INFO  TC_11_PaymentMethodSelection:61 - **** TC 11 Completed ****
+2025-08-11 02:00:44 INFO  TC_12_ApplyForCouponCode:17 - **** TC 12 Starterd ****
+2025-08-11 02:00:50 INFO  TC_12_ApplyForCouponCode:26 - Entered the correct Email ID.
+2025-08-11 02:00:51 INFO  TC_12_ApplyForCouponCode:29 - Entered the correct Password.
+2025-08-11 02:00:57 INFO  TC_12_ApplyForCouponCode:32 - Searched for a product.
+2025-08-11 02:00:57 INFO  TC_12_ApplyForCouponCode:36 - Clicked on Add to Cart Button
+2025-08-11 02:00:59 INFO  TC_12_ApplyForCouponCode:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 02:01:03 INFO  TC_12_ApplyForCouponCode:42 - Clicked on Proceed to Buy Button.
+2025-08-11 02:01:04 INFO  TC_12_ApplyForCouponCode:46 - Entered incorrect Coupun Code.
+2025-08-11 02:01:04 INFO  TC_12_ApplyForCouponCode:48 - After that Clicked on Apply Button.
+2025-08-11 02:01:06 INFO  TC_12_ApplyForCouponCode:50 - Validation Message Checked.
+2025-08-11 02:01:06 INFO  TC_12_ApplyForCouponCode:52 - **** TC 12 Completed ****
+2025-08-11 02:01:14 INFO  TC_13_FiveStarRating:17 - **** TC 13 Starterd ****
+2025-08-11 02:01:17 INFO  TC_13_FiveStarRating:26 - Entered the correct Email ID.
+2025-08-11 02:01:19 INFO  TC_13_FiveStarRating:29 - Entered the correct Password.
+2025-08-11 02:01:24 INFO  TC_13_FiveStarRating:32 - Clicked on Orders that navigate to the 'Your Orders' details page.
+2025-08-11 02:01:27 INFO  TC_13_FiveStarRating:36 - Clicked on Buy Again option.
+2025-08-11 02:01:27 INFO  TC_13_FiveStarRating:38 - Clicked on Latest Bought Product.
+2025-08-11 02:01:30 INFO  TC_13_FiveStarRating:40 - Clicked on Star Icons.
+2025-08-11 02:01:31 INFO  TC_13_FiveStarRating:44 - Clicked on Write a Review.
+2025-08-11 02:01:31 INFO  TC_13_FiveStarRating:48 - Clicked on the 5th Star.
+2025-08-11 02:01:31 INFO  TC_13_FiveStarRating:52 - **** TC 13 Completed ****
+2025-08-11 02:01:40 INFO  TC_14_CartPageWithoutLogin:17 - **** TC 14 Starterd ****
+2025-08-11 02:01:45 INFO  TC_14_CartPageWithoutLogin:24 - Clicked on Add to Cart Button.
+2025-08-11 02:01:48 INFO  TC_14_CartPageWithoutLogin:26 - Clicked on Go to Cart Button.
+2025-08-11 02:01:48 INFO  TC_14_CartPageWithoutLogin:28 - **** TC 14 Completed ****
+2025-08-11 11:45:36 INFO  TC_1_Login_with_correct_EmailPwd:16 - **** TC 1 Starterd ****
+2025-08-11 11:45:41 INFO  TC_1_Login_with_correct_EmailPwd:25 - Entered the correct Email ID.
+2025-08-11 11:45:43 INFO  TC_1_Login_with_correct_EmailPwd:28 - Entered the correct Password.
+2025-08-11 11:45:43 INFO  TC_1_Login_with_correct_EmailPwd:30 - **** TC 1 Completed ****
+2025-08-11 11:46:00 INFO  TC_2_A_Login_with_incorrectEmail:16 - **** TC 2A Starterd ****
+2025-08-11 11:46:02 INFO  TC_2_A_Login_with_incorrectEmail:25 - Entered an Incorrect Email Address.
+2025-08-11 11:46:02 INFO  TC_2_A_Login_with_incorrectEmail:29 - **** TC 2A Completed ****
+2025-08-11 11:46:13 INFO  TC_2_B_Login_with_incorrectPwd:16 - **** TC 2B Starterd ****
+2025-08-11 11:46:18 INFO  TC_2_B_Login_with_incorrectPwd:25 - Entered the correct Email ID.
+2025-08-11 11:46:20 INFO  TC_2_B_Login_with_incorrectPwd:28 - Entered an Incorrect Password.
+2025-08-11 11:46:20 INFO  TC_2_B_Login_with_incorrectPwd:30 - **** TC 2B Completed ****
+2025-08-11 11:46:33 INFO  TC_3_Edit_Profile:16 - **** TC 3 Starterd ****
+2025-08-11 11:46:38 INFO  TC_3_Edit_Profile:25 - Entered the correct Email ID.
+2025-08-11 11:46:39 INFO  TC_3_Edit_Profile:28 - Entered the correct Password.
+2025-08-11 11:46:43 INFO  TC_3_Edit_Profile:32 - Clicked on Manage Profile.
+2025-08-11 11:46:44 INFO  TC_3_Edit_Profile:34 - Clicked on View button.
+2025-08-11 11:46:47 INFO  TC_3_Edit_Profile:38 - Clicked on the Age Group.
+2025-08-11 11:46:47 INFO  TC_3_Edit_Profile:40 - Clicked on the Add Button.
+2025-08-11 11:46:48 INFO  TC_3_Edit_Profile:42 - Age Group Selected.
+2025-08-11 11:46:48 INFO  TC_3_Edit_Profile:44 - Saved selected age data.
+2025-08-11 11:46:48 INFO  TC_3_Edit_Profile:46 - Profile data edited successfully.
+2025-08-11 11:46:48 INFO  TC_3_Edit_Profile:48 - **** TC 3 Completed ****
+2025-08-11 11:47:00 INFO  TC_4_SearchProduct:16 - **** TC 4 Starterd ****
+2025-08-11 11:47:04 INFO  TC_4_SearchProduct:25 - Entered the correct Email ID.
+2025-08-11 11:47:05 INFO  TC_4_SearchProduct:28 - Entered the correct Password.
+2025-08-11 11:47:13 INFO  TC_4_SearchProduct:31 - Searched for a product.
+2025-08-11 11:47:14 INFO  TC_4_SearchProduct:35 - The product search was successful.
+2025-08-11 11:47:14 INFO  TC_4_SearchProduct:38 - **** TC 4 Completed ****
+2025-08-11 11:47:22 INFO  TC_5_Search_with_Filters:16 - **** TC 5 Starterd ****
+2025-08-11 11:47:26 INFO  TC_5_Search_with_Filters:25 - Entered the correct Email ID.
+2025-08-11 11:47:27 INFO  TC_5_Search_with_Filters:28 - Entered the correct Password.
+2025-08-11 11:47:35 INFO  TC_5_Search_with_Filters:31 - Searched for a product.
+2025-08-11 11:47:35 INFO  TC_5_Search_with_Filters:35 - The product search was successful.
+2025-08-11 11:47:36 INFO  TC_5_Search_with_Filters:37 - Price range selected ✅
+2025-08-11 11:47:38 INFO  TC_5_Search_with_Filters:39 - Category selected ✅
+2025-08-11 11:47:38 INFO  TC_5_Search_with_Filters:41 - **** TC 5 Completed ****
+2025-08-11 11:47:49 INFO  TC_6_VerifyProductDetail:17 - **** TC 6 Starterd ****
+2025-08-11 11:47:53 INFO  TC_6_VerifyProductDetail:26 - Entered the correct Email ID.
+2025-08-11 11:47:54 INFO  TC_6_VerifyProductDetail:29 - Entered the correct Password.
+2025-08-11 11:48:02 INFO  TC_6_VerifyProductDetail:32 - Searched for a product.
+2025-08-11 11:48:07 INFO  TC_6_VerifyProductDetail:36 - Clicked on the Search Product.
+2025-08-11 11:48:07 INFO  TC_6_VerifyProductDetail:44 - Checked all necessary information, including the product title, price, reviews and description.
+2025-08-11 11:48:07 INFO  TC_6_VerifyProductDetail:46 - **** TC 6 Completed ****
+2025-08-11 11:48:18 INFO  TC_7_ProductSorting:17 - **** TC 7 Starterd ****
+2025-08-11 11:48:22 INFO  TC_7_ProductSorting:26 - Entered the correct Email ID.
+2025-08-11 11:48:23 INFO  TC_7_ProductSorting:29 - Entered the correct Password.
+2025-08-11 11:48:31 INFO  TC_7_ProductSorting:32 - Searched for a product.
+2025-08-11 11:48:38 INFO  TC_7_ProductSorting:36 - Product sorting is done using filters for price, reviews, and relevancy.
+2025-08-11 11:48:38 INFO  TC_7_ProductSorting:38 - **** TC 7 Completed ****
+2025-08-11 11:48:57 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-11 11:49:02 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-11 11:49:03 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-11 11:49:18 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-11 11:49:18 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-11 11:49:22 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 11:49:42 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-11 11:49:46 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-11 11:49:47 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-11 11:49:55 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-11 11:49:56 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-11 11:49:57 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 11:49:57 INFO  TC_8_AddToCart:42 - The product was added to the cart.
+2025-08-11 11:49:57 INFO  TC_8_AddToCart:44 - **** TC 8 Completed ****
+2025-08-11 11:50:05 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-11 11:50:10 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-11 11:50:11 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-11 11:50:19 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-11 11:50:19 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-11 11:50:21 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 11:50:21 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-11 11:50:23 INFO  TC_9_UpdateProductsQty:44 - Clicked on '-' sign to Remove Qty.
+2025-08-11 11:50:23 INFO  TC_9_UpdateProductsQty:46 - Clicked on '+' sign to Add Qty.
+2025-08-11 11:50:26 INFO  TC_9_UpdateProductsQty:48 - Clicked on Delete to delete All Qty.
+2025-08-11 11:50:26 INFO  TC_9_UpdateProductsQty:50 - **** TC 9 Completed ****
+2025-08-11 11:50:40 INFO  TC_10_CheckoutProcess:17 - **** TC 10 Starterd ****
+2025-08-11 11:50:44 INFO  TC_10_CheckoutProcess:26 - Entered the correct Email ID.
+2025-08-11 11:50:45 INFO  TC_10_CheckoutProcess:29 - Entered the correct Password.
+2025-08-11 11:50:53 INFO  TC_10_CheckoutProcess:32 - Searched for a product.
+2025-08-11 11:50:53 INFO  TC_10_CheckoutProcess:36 - Clicked on Add to Cart Button.
+2025-08-11 11:50:56 INFO  TC_10_CheckoutProcess:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 11:51:01 INFO  TC_10_CheckoutProcess:42 - Clicked on Proceed to Buy Button.
+2025-08-11 11:51:01 INFO  TC_10_CheckoutProcess:46 - Validation for Checkout Address: ✓
+2025-08-11 11:51:01 INFO  TC_10_CheckoutProcess:48 - Validation for Payment Method: ✓
+2025-08-11 11:51:01 INFO  TC_10_CheckoutProcess:50 - Validation for Order Review: ✓
+2025-08-11 11:51:01 INFO  TC_10_CheckoutProcess:52 - **** TC 10 Completed ****
+2025-08-11 11:51:09 INFO  TC_11_PaymentMethodSelection:17 - **** TC 11 Starterd ****
+2025-08-11 11:51:13 INFO  TC_11_PaymentMethodSelection:26 - Entered the correct Email ID.
+2025-08-11 11:51:14 INFO  TC_11_PaymentMethodSelection:29 - Entered the correct Password.
+2025-08-11 11:51:22 INFO  TC_11_PaymentMethodSelection:32 - Searched for a product.
+2025-08-11 11:51:22 INFO  TC_11_PaymentMethodSelection:36 - Clicked on Add to Cart Button.
+2025-08-11 11:51:24 INFO  TC_11_PaymentMethodSelection:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 11:51:29 INFO  TC_11_PaymentMethodSelection:42 - Clicked on Proceed to Buy Button.
+2025-08-11 11:51:30 INFO  TC_11_PaymentMethodSelection:46 - Credit and Debit Card Payment Options: ✓
+2025-08-11 11:51:31 INFO  TC_11_PaymentMethodSelection:48 - Amazon Pay Option: ✓
+2025-08-11 11:51:33 INFO  TC_11_PaymentMethodSelection:50 - UPI Payment Option: ✓
+2025-08-11 11:51:34 INFO  TC_11_PaymentMethodSelection:52 - Another Payment Method: Credit or Debit Card Option: ✓
+2025-08-11 11:51:35 INFO  TC_11_PaymentMethodSelection:54 - Another payment method: Net Banking is availble: ✓
+2025-08-11 11:51:36 INFO  TC_11_PaymentMethodSelection:56 - Another payment method: Other UPI Apps is availble: ✓
+2025-08-11 11:51:37 INFO  TC_11_PaymentMethodSelection:59 - Another payment method: COD / POD: ✓ 
+2025-08-11 11:51:37 INFO  TC_11_PaymentMethodSelection:61 - **** TC 11 Completed ****
+2025-08-11 11:51:46 INFO  TC_12_ApplyForCouponCode:17 - **** TC 12 Starterd ****
+2025-08-11 11:51:50 INFO  TC_12_ApplyForCouponCode:26 - Entered the correct Email ID.
+2025-08-11 11:51:51 INFO  TC_12_ApplyForCouponCode:29 - Entered the correct Password.
+2025-08-11 11:51:58 INFO  TC_12_ApplyForCouponCode:32 - Searched for a product.
+2025-08-11 11:51:59 INFO  TC_12_ApplyForCouponCode:36 - Clicked on Add to Cart Button
+2025-08-11 11:52:00 INFO  TC_12_ApplyForCouponCode:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-11 11:52:06 INFO  TC_12_ApplyForCouponCode:42 - Clicked on Proceed to Buy Button.
+2025-08-11 11:52:06 INFO  TC_12_ApplyForCouponCode:46 - Entered incorrect Coupun Code.
+2025-08-11 11:52:06 INFO  TC_12_ApplyForCouponCode:48 - After that Clicked on Apply Button.
+2025-08-11 11:52:08 INFO  TC_12_ApplyForCouponCode:50 - Validation Message Checked.
+2025-08-11 11:52:08 INFO  TC_12_ApplyForCouponCode:52 - **** TC 12 Completed ****
+2025-08-11 11:52:18 INFO  TC_13_FiveStarRating:17 - **** TC 13 Starterd ****
+2025-08-11 11:52:22 INFO  TC_13_FiveStarRating:26 - Entered the correct Email ID.
+2025-08-11 11:52:23 INFO  TC_13_FiveStarRating:29 - Entered the correct Password.
+2025-08-11 11:52:27 INFO  TC_13_FiveStarRating:32 - Clicked on Orders that navigate to the 'Your Orders' details page.
+2025-08-11 11:52:30 INFO  TC_13_FiveStarRating:36 - Clicked on Buy Again option.
+2025-08-11 11:52:30 INFO  TC_13_FiveStarRating:38 - Clicked on Latest Bought Product.
+2025-08-11 11:52:33 INFO  TC_13_FiveStarRating:40 - Clicked on Star Icons.
+2025-08-11 11:52:34 INFO  TC_13_FiveStarRating:44 - Clicked on Write a Review.
+2025-08-11 11:52:34 INFO  TC_13_FiveStarRating:48 - Clicked on the 5th Star.
+2025-08-11 11:52:34 INFO  TC_13_FiveStarRating:52 - **** TC 13 Completed ****
+2025-08-11 11:52:43 INFO  TC_14_CartPageWithoutLogin:17 - **** TC 14 Starterd ****
+2025-08-11 11:52:47 INFO  TC_14_CartPageWithoutLogin:24 - Clicked on Add to Cart Button.
+2025-08-11 11:52:51 INFO  TC_14_CartPageWithoutLogin:26 - Clicked on Go to Cart Button.
+2025-08-11 11:52:51 INFO  TC_14_CartPageWithoutLogin:28 - **** TC 14 Completed ****
+2025-08-14 14:32:21 INFO  TC_1_Login_with_correct_EmailPwd:16 - **** TC 1 Starterd ****
+2025-08-14 14:32:26 INFO  TC_1_Login_with_correct_EmailPwd:25 - Entered the correct Email ID.
+2025-08-14 14:32:27 INFO  TC_1_Login_with_correct_EmailPwd:28 - Entered the correct Password.
+2025-08-14 14:32:27 INFO  TC_1_Login_with_correct_EmailPwd:30 - **** TC 1 Completed ****
+2025-08-14 14:32:45 INFO  TC_2_A_Login_with_incorrectEmail:16 - **** TC 2A Starterd ****
+2025-08-14 14:32:47 INFO  TC_2_A_Login_with_incorrectEmail:25 - Entered an Incorrect Email Address.
+2025-08-14 14:32:47 INFO  TC_2_A_Login_with_incorrectEmail:29 - **** TC 2A Completed ****
+2025-08-14 14:33:00 INFO  TC_2_B_Login_with_incorrectPwd:16 - **** TC 2B Starterd ****
+2025-08-14 14:33:03 INFO  TC_2_B_Login_with_incorrectPwd:25 - Entered the correct Email ID.
+2025-08-14 14:33:06 INFO  TC_2_B_Login_with_incorrectPwd:28 - Entered an Incorrect Password.
+2025-08-14 14:33:06 INFO  TC_2_B_Login_with_incorrectPwd:30 - **** TC 2B Completed ****
+2025-08-14 14:33:22 INFO  TC_3_Edit_Profile:16 - **** TC 3 Starterd ****
+2025-08-14 14:33:26 INFO  TC_3_Edit_Profile:25 - Entered the correct Email ID.
+2025-08-14 14:33:27 INFO  TC_3_Edit_Profile:28 - Entered the correct Password.
+2025-08-14 14:33:38 INFO  TC_3_Edit_Profile:32 - Clicked on Manage Profile.
+2025-08-14 14:33:38 INFO  TC_3_Edit_Profile:34 - Clicked on View button.
+2025-08-14 14:33:43 INFO  TC_3_Edit_Profile:38 - Clicked on the Age Group.
+2025-08-14 14:33:44 INFO  TC_3_Edit_Profile:40 - Clicked on the Add Button.
+2025-08-14 14:33:45 INFO  TC_3_Edit_Profile:42 - Age Group Selected.
+2025-08-14 14:33:45 INFO  TC_3_Edit_Profile:44 - Saved selected age data.
+2025-08-14 14:33:45 INFO  TC_3_Edit_Profile:46 - Profile data edited successfully.
+2025-08-14 14:33:45 INFO  TC_3_Edit_Profile:48 - **** TC 3 Completed ****
+2025-08-14 14:34:02 INFO  TC_4_SearchProduct:16 - **** TC 4 Starterd ****
+2025-08-14 14:34:08 INFO  TC_4_SearchProduct:25 - Entered the correct Email ID.
+2025-08-14 14:34:09 INFO  TC_4_SearchProduct:28 - Entered the correct Password.
+2025-08-14 14:34:21 INFO  TC_4_SearchProduct:31 - Searched for a product.
+2025-08-14 14:34:21 INFO  TC_4_SearchProduct:35 - The product search was successful.
+2025-08-14 14:34:21 INFO  TC_4_SearchProduct:38 - **** TC 4 Completed ****
+2025-08-14 14:34:36 INFO  TC_5_Search_with_Filters:16 - **** TC 5 Starterd ****
+2025-08-14 14:34:41 INFO  TC_5_Search_with_Filters:25 - Entered the correct Email ID.
+2025-08-14 14:34:42 INFO  TC_5_Search_with_Filters:28 - Entered the correct Password.
+2025-08-14 14:34:53 INFO  TC_5_Search_with_Filters:31 - Searched for a product.
+2025-08-14 14:34:53 INFO  TC_5_Search_with_Filters:35 - The product search was successful.
+2025-08-14 14:34:53 INFO  TC_5_Search_with_Filters:37 - Price range selected ✅
+2025-08-14 14:34:58 INFO  TC_5_Search_with_Filters:39 - Category selected ✅
+2025-08-14 14:34:58 INFO  TC_5_Search_with_Filters:41 - **** TC 5 Completed ****
+2025-08-14 14:35:14 INFO  TC_6_VerifyProductDetail:17 - **** TC 6 Starterd ****
+2025-08-14 14:35:19 INFO  TC_6_VerifyProductDetail:26 - Entered the correct Email ID.
+2025-08-14 14:35:21 INFO  TC_6_VerifyProductDetail:29 - Entered the correct Password.
+2025-08-14 14:35:29 INFO  TC_6_VerifyProductDetail:32 - Searched for a product.
+2025-08-14 14:35:40 INFO  TC_6_VerifyProductDetail:36 - Clicked on the Search Product.
+2025-08-14 14:35:40 INFO  TC_6_VerifyProductDetail:44 - Checked all necessary information, including the product title, price, reviews and description.
+2025-08-14 14:35:40 INFO  TC_6_VerifyProductDetail:46 - **** TC 6 Completed ****
+2025-08-14 14:36:02 INFO  TC_7_ProductSorting:17 - **** TC 7 Starterd ****
+2025-08-14 14:36:07 INFO  TC_7_ProductSorting:26 - Entered the correct Email ID.
+2025-08-14 14:36:08 INFO  TC_7_ProductSorting:29 - Entered the correct Password.
+2025-08-14 14:36:22 INFO  TC_7_ProductSorting:32 - Searched for a product.
+2025-08-14 14:36:29 INFO  TC_7_ProductSorting:36 - Product sorting is done using filters for price, reviews, and relevancy.
+2025-08-14 14:36:29 INFO  TC_7_ProductSorting:38 - **** TC 7 Completed ****
+2025-08-14 14:36:42 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-14 14:36:46 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-14 14:36:47 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-14 14:36:58 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-14 14:36:58 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-14 14:37:00 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 14:37:28 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-14 14:37:32 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-14 14:37:34 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-14 14:37:44 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-14 14:37:44 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-14 14:37:46 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 14:37:46 INFO  TC_8_AddToCart:42 - The product was added to the cart.
+2025-08-14 14:37:46 INFO  TC_8_AddToCart:44 - **** TC 8 Completed ****
+2025-08-14 14:38:10 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-14 14:38:17 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-14 14:38:18 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-14 14:38:32 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-14 14:38:32 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-14 14:38:34 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 14:38:34 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-14 14:38:36 INFO  TC_9_UpdateProductsQty:44 - Clicked on '-' sign to Remove Qty.
+2025-08-14 14:38:36 INFO  TC_9_UpdateProductsQty:46 - Clicked on '+' sign to Add Qty.
+2025-08-14 14:38:39 INFO  TC_9_UpdateProductsQty:48 - Clicked on Delete to delete All Qty.
+2025-08-14 14:38:39 INFO  TC_9_UpdateProductsQty:50 - **** TC 9 Completed ****
+2025-08-14 14:38:56 INFO  TC_10_CheckoutProcess:17 - **** TC 10 Starterd ****
+2025-08-14 14:39:01 INFO  TC_10_CheckoutProcess:26 - Entered the correct Email ID.
+2025-08-14 14:39:02 INFO  TC_10_CheckoutProcess:29 - Entered the correct Password.
+2025-08-14 14:39:05 INFO  TC_10_CheckoutProcess:32 - Searched for a product.
+2025-08-14 14:39:11 INFO  TC_10_CheckoutProcess:36 - Clicked on Add to Cart Button.
+2025-08-14 14:39:16 INFO  TC_10_CheckoutProcess:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 14:39:21 INFO  TC_10_CheckoutProcess:42 - Clicked on Proceed to Buy Button.
+2025-08-14 14:39:21 INFO  TC_10_CheckoutProcess:46 - Validation for Checkout Address: ✓
+2025-08-14 14:39:21 INFO  TC_10_CheckoutProcess:48 - Validation for Payment Method: ✓
+2025-08-14 14:39:21 INFO  TC_10_CheckoutProcess:50 - Validation for Order Review: ✓
+2025-08-14 14:39:21 INFO  TC_10_CheckoutProcess:52 - **** TC 10 Completed ****
+2025-08-14 14:39:42 INFO  TC_11_PaymentMethodSelection:17 - **** TC 11 Starterd ****
+2025-08-14 14:39:46 INFO  TC_11_PaymentMethodSelection:26 - Entered the correct Email ID.
+2025-08-14 14:39:49 INFO  TC_11_PaymentMethodSelection:29 - Entered the correct Password.
+2025-08-14 14:40:00 INFO  TC_11_PaymentMethodSelection:32 - Searched for a product.
+2025-08-14 14:40:00 INFO  TC_11_PaymentMethodSelection:36 - Clicked on Add to Cart Button.
+2025-08-14 14:40:02 INFO  TC_11_PaymentMethodSelection:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 14:40:07 INFO  TC_11_PaymentMethodSelection:42 - Clicked on Proceed to Buy Button.
+2025-08-14 14:40:08 INFO  TC_11_PaymentMethodSelection:46 - Credit and Debit Card Payment Options: ✓
+2025-08-14 14:40:09 INFO  TC_11_PaymentMethodSelection:48 - Amazon Pay Option: ✓
+2025-08-14 14:40:10 INFO  TC_11_PaymentMethodSelection:50 - UPI Payment Option: ✓
+2025-08-14 14:40:11 INFO  TC_11_PaymentMethodSelection:52 - Another Payment Method: Credit or Debit Card Option: ✓
+2025-08-14 14:40:13 INFO  TC_11_PaymentMethodSelection:54 - Another payment method: Net Banking is availble: ✓
+2025-08-14 14:40:14 INFO  TC_11_PaymentMethodSelection:56 - Another payment method: Other UPI Apps is availble: ✓
+2025-08-14 14:40:15 INFO  TC_11_PaymentMethodSelection:59 - Another payment method: COD / POD: ✓ 
+2025-08-14 14:40:15 INFO  TC_11_PaymentMethodSelection:61 - **** TC 11 Completed ****
+2025-08-14 14:40:29 INFO  TC_12_ApplyForCouponCode:17 - **** TC 12 Starterd ****
+2025-08-14 14:40:42 INFO  TC_12_ApplyForCouponCode:26 - Entered the correct Email ID.
+2025-08-14 14:40:43 INFO  TC_12_ApplyForCouponCode:29 - Entered the correct Password.
+2025-08-14 14:41:06 INFO  TC_12_ApplyForCouponCode:32 - Searched for a product.
+2025-08-14 14:41:06 INFO  TC_12_ApplyForCouponCode:36 - Clicked on Add to Cart Button
+2025-08-14 14:41:13 INFO  TC_12_ApplyForCouponCode:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 14:41:21 INFO  TC_12_ApplyForCouponCode:42 - Clicked on Proceed to Buy Button.
+2025-08-14 14:41:21 INFO  TC_12_ApplyForCouponCode:46 - Entered incorrect Coupun Code.
+2025-08-14 14:41:21 INFO  TC_12_ApplyForCouponCode:48 - After that Clicked on Apply Button.
+2025-08-14 14:41:23 INFO  TC_12_ApplyForCouponCode:50 - Validation Message Checked.
+2025-08-14 14:41:23 INFO  TC_12_ApplyForCouponCode:52 - **** TC 12 Completed ****
+2025-08-14 14:41:47 INFO  TC_13_FiveStarRating:17 - **** TC 13 Starterd ****
+2025-08-14 14:41:54 INFO  TC_13_FiveStarRating:26 - Entered the correct Email ID.
+2025-08-14 14:41:56 INFO  TC_13_FiveStarRating:29 - Entered the correct Password.
+2025-08-14 14:42:11 INFO  TC_13_FiveStarRating:32 - Clicked on Orders that navigate to the 'Your Orders' details page.
+2025-08-14 14:42:14 INFO  TC_13_FiveStarRating:36 - Clicked on Buy Again option.
+2025-08-14 14:42:14 INFO  TC_13_FiveStarRating:38 - Clicked on Latest Bought Product.
+2025-08-14 14:42:18 INFO  TC_13_FiveStarRating:40 - Clicked on Star Icons.
+2025-08-14 14:42:21 INFO  TC_13_FiveStarRating:44 - Clicked on Write a Review.
+2025-08-14 14:42:21 INFO  TC_13_FiveStarRating:48 - Clicked on the 5th Star.
+2025-08-14 14:42:21 INFO  TC_13_FiveStarRating:52 - **** TC 13 Completed ****
+2025-08-14 14:42:45 INFO  TC_14_CartPageWithoutLogin:17 - **** TC 14 Starterd ****
+2025-08-14 14:42:50 INFO  TC_14_CartPageWithoutLogin:24 - Clicked on Add to Cart Button.
+2025-08-14 14:42:54 INFO  TC_14_CartPageWithoutLogin:26 - Clicked on Go to Cart Button.
+2025-08-14 14:42:54 INFO  TC_14_CartPageWithoutLogin:28 - **** TC 14 Completed ****
+2025-08-14 19:33:31 INFO  TC_1_Login_with_correct_EmailPwd:16 - **** TC 1 Starterd ****
+2025-08-14 19:33:38 INFO  TC_1_Login_with_correct_EmailPwd:25 - Entered the correct Email ID.
+2025-08-14 19:33:39 INFO  TC_1_Login_with_correct_EmailPwd:28 - Entered the correct Password.
+2025-08-14 19:33:39 INFO  TC_1_Login_with_correct_EmailPwd:30 - **** TC 1 Completed ****
+2025-08-14 19:33:56 INFO  TC_2_A_Login_with_incorrectEmail:16 - **** TC 2A Starterd ****
+2025-08-14 19:34:01 INFO  TC_2_A_Login_with_incorrectEmail:25 - Entered an Incorrect Email Address.
+2025-08-14 19:34:01 INFO  TC_2_A_Login_with_incorrectEmail:29 - **** TC 2A Completed ****
+2025-08-14 19:34:10 INFO  TC_2_B_Login_with_incorrectPwd:16 - **** TC 2B Starterd ****
+2025-08-14 19:34:14 INFO  TC_2_B_Login_with_incorrectPwd:25 - Entered the correct Email ID.
+2025-08-14 19:34:16 INFO  TC_2_B_Login_with_incorrectPwd:28 - Entered an Incorrect Password.
+2025-08-14 19:34:16 INFO  TC_2_B_Login_with_incorrectPwd:30 - **** TC 2B Completed ****
+2025-08-14 19:34:30 INFO  TC_3_Edit_Profile:16 - **** TC 3 Starterd ****
+2025-08-14 19:34:36 INFO  TC_3_Edit_Profile:25 - Entered the correct Email ID.
+2025-08-14 19:34:37 INFO  TC_3_Edit_Profile:28 - Entered the correct Password.
+2025-08-14 19:34:42 INFO  TC_3_Edit_Profile:32 - Clicked on Manage Profile.
+2025-08-14 19:34:43 INFO  TC_3_Edit_Profile:34 - Clicked on View button.
+2025-08-14 19:34:47 INFO  TC_3_Edit_Profile:38 - Clicked on the Age Group.
+2025-08-14 19:34:47 INFO  TC_3_Edit_Profile:40 - Clicked on the Add Button.
+2025-08-14 19:34:48 INFO  TC_3_Edit_Profile:42 - Age Group Selected.
+2025-08-14 19:34:48 INFO  TC_3_Edit_Profile:44 - Saved selected age data.
+2025-08-14 19:34:48 INFO  TC_3_Edit_Profile:46 - Profile data edited successfully.
+2025-08-14 19:34:48 INFO  TC_3_Edit_Profile:48 - **** TC 3 Completed ****
+2025-08-14 19:34:58 INFO  TC_4_SearchProduct:16 - **** TC 4 Starterd ****
+2025-08-14 19:35:03 INFO  TC_4_SearchProduct:25 - Entered the correct Email ID.
+2025-08-14 19:35:04 INFO  TC_4_SearchProduct:28 - Entered the correct Password.
+2025-08-14 19:35:14 INFO  TC_4_SearchProduct:31 - Searched for a product.
+2025-08-14 19:35:14 INFO  TC_4_SearchProduct:35 - The product search was successful.
+2025-08-14 19:35:14 INFO  TC_4_SearchProduct:38 - **** TC 4 Completed ****
+2025-08-14 19:35:24 INFO  TC_5_Search_with_Filters:16 - **** TC 5 Starterd ****
+2025-08-14 19:35:28 INFO  TC_5_Search_with_Filters:25 - Entered the correct Email ID.
+2025-08-14 19:35:30 INFO  TC_5_Search_with_Filters:28 - Entered the correct Password.
+2025-08-14 19:35:34 INFO  TC_5_Search_with_Filters:31 - Searched for a product.
+2025-08-14 19:35:38 INFO  TC_5_Search_with_Filters:35 - The product search was successful.
+2025-08-14 19:35:39 INFO  TC_5_Search_with_Filters:37 - Price range selected ✅
+2025-08-14 19:35:43 INFO  TC_5_Search_with_Filters:39 - Category selected ✅
+2025-08-14 19:35:43 INFO  TC_5_Search_with_Filters:41 - **** TC 5 Completed ****
+2025-08-14 19:35:53 INFO  TC_6_VerifyProductDetail:17 - **** TC 6 Starterd ****
+2025-08-14 19:35:56 INFO  TC_6_VerifyProductDetail:26 - Entered the correct Email ID.
+2025-08-14 19:35:58 INFO  TC_6_VerifyProductDetail:29 - Entered the correct Password.
+2025-08-14 19:36:06 INFO  TC_6_VerifyProductDetail:32 - Searched for a product.
+2025-08-14 19:36:12 INFO  TC_6_VerifyProductDetail:36 - Clicked on the Search Product.
+2025-08-14 19:36:12 INFO  TC_6_VerifyProductDetail:44 - Checked all necessary information, including the product title, price, reviews and description.
+2025-08-14 19:36:12 INFO  TC_6_VerifyProductDetail:46 - **** TC 6 Completed ****
+2025-08-14 19:36:26 INFO  TC_7_ProductSorting:17 - **** TC 7 Starterd ****
+2025-08-14 19:36:31 INFO  TC_7_ProductSorting:26 - Entered the correct Email ID.
+2025-08-14 19:36:33 INFO  TC_7_ProductSorting:29 - Entered the correct Password.
+2025-08-14 19:36:42 INFO  TC_7_ProductSorting:32 - Searched for a product.
+2025-08-14 19:36:51 INFO  TC_7_ProductSorting:36 - Product sorting is done using filters for price, reviews, and relevancy.
+2025-08-14 19:36:51 INFO  TC_7_ProductSorting:38 - **** TC 7 Completed ****
+2025-08-14 19:37:02 INFO  TC_8_AddToCart:17 - **** TC 8 Starterd ****
+2025-08-14 19:37:06 INFO  TC_8_AddToCart:26 - Entered the correct Email ID.
+2025-08-14 19:37:08 INFO  TC_8_AddToCart:29 - Entered the correct Password.
+2025-08-14 19:37:16 INFO  TC_8_AddToCart:32 - Searched for a product.
+2025-08-14 19:37:17 INFO  TC_8_AddToCart:36 - Clicked on Add to Cart Button.
+2025-08-14 19:37:20 INFO  TC_8_AddToCart:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 19:37:20 INFO  TC_8_AddToCart:42 - The product was added to the cart.
+2025-08-14 19:37:20 INFO  TC_8_AddToCart:44 - **** TC 8 Completed ****
+2025-08-14 19:37:30 INFO  TC_9_UpdateProductsQty:17 - **** TC 9 Starterd ****
+2025-08-14 19:37:34 INFO  TC_9_UpdateProductsQty:26 - Entered the correct Email ID.
+2025-08-14 19:37:35 INFO  TC_9_UpdateProductsQty:29 - Entered the correct Password.
+2025-08-14 19:37:42 INFO  TC_9_UpdateProductsQty:32 - Searched for a product.
+2025-08-14 19:37:44 INFO  TC_9_UpdateProductsQty:36 - Clicked on Add to Cart Button
+2025-08-14 19:37:46 INFO  TC_9_UpdateProductsQty:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 19:37:46 INFO  TC_9_UpdateProductsQty:42 - The product was added to the cart.
+2025-08-14 19:37:48 INFO  TC_9_UpdateProductsQty:44 - Clicked on '-' sign to Remove Qty.
+2025-08-14 19:37:49 INFO  TC_9_UpdateProductsQty:46 - Clicked on '+' sign to Add Qty.
+2025-08-14 19:37:51 INFO  TC_9_UpdateProductsQty:48 - Clicked on Delete to delete All Qty.
+2025-08-14 19:37:51 INFO  TC_9_UpdateProductsQty:50 - **** TC 9 Completed ****
+2025-08-14 19:38:09 INFO  TC_10_CheckoutProcess:17 - **** TC 10 Starterd ****
+2025-08-14 19:38:15 INFO  TC_10_CheckoutProcess:26 - Entered the correct Email ID.
+2025-08-14 19:38:17 INFO  TC_10_CheckoutProcess:29 - Entered the correct Password.
+2025-08-14 19:38:38 INFO  TC_10_CheckoutProcess:32 - Searched for a product.
+2025-08-14 19:38:39 INFO  TC_10_CheckoutProcess:36 - Clicked on Add to Cart Button.
+2025-08-14 19:38:46 INFO  TC_10_CheckoutProcess:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 19:38:51 INFO  TC_10_CheckoutProcess:42 - Clicked on Proceed to Buy Button.
+2025-08-14 19:38:51 INFO  TC_10_CheckoutProcess:46 - Validation for Checkout Address: ✓
+2025-08-14 19:38:51 INFO  TC_10_CheckoutProcess:48 - Validation for Payment Method: ✓
+2025-08-14 19:38:51 INFO  TC_10_CheckoutProcess:50 - Validation for Order Review: ✓
+2025-08-14 19:38:51 INFO  TC_10_CheckoutProcess:52 - **** TC 10 Completed ****
+2025-08-14 19:39:12 INFO  TC_11_PaymentMethodSelection:17 - **** TC 11 Starterd ****
+2025-08-14 19:39:19 INFO  TC_11_PaymentMethodSelection:26 - Entered the correct Email ID.
+2025-08-14 19:39:21 INFO  TC_11_PaymentMethodSelection:29 - Entered the correct Password.
+2025-08-14 19:39:39 INFO  TC_11_PaymentMethodSelection:32 - Searched for a product.
+2025-08-14 19:39:40 INFO  TC_11_PaymentMethodSelection:36 - Clicked on Add to Cart Button.
+2025-08-14 19:39:43 INFO  TC_11_PaymentMethodSelection:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 19:39:49 INFO  TC_11_PaymentMethodSelection:42 - Clicked on Proceed to Buy Button.
+2025-08-14 19:39:50 INFO  TC_11_PaymentMethodSelection:46 - Credit and Debit Card Payment Options: ✓
+2025-08-14 19:39:52 INFO  TC_11_PaymentMethodSelection:48 - Amazon Pay Option: ✓
+2025-08-14 19:39:53 INFO  TC_11_PaymentMethodSelection:50 - UPI Payment Option: ✓
+2025-08-14 19:39:54 INFO  TC_11_PaymentMethodSelection:52 - Another Payment Method: Credit or Debit Card Option: ✓
+2025-08-14 19:39:55 INFO  TC_11_PaymentMethodSelection:54 - Another payment method: Net Banking is availble: ✓
+2025-08-14 19:39:57 INFO  TC_11_PaymentMethodSelection:56 - Another payment method: Other UPI Apps is availble: ✓
+2025-08-14 19:39:58 INFO  TC_11_PaymentMethodSelection:59 - Another payment method: COD / POD: ✓ 
+2025-08-14 19:39:58 INFO  TC_11_PaymentMethodSelection:61 - **** TC 11 Completed ****
+2025-08-14 19:40:07 INFO  TC_12_ApplyForCouponCode:17 - **** TC 12 Starterd ****
+2025-08-14 19:40:12 INFO  TC_12_ApplyForCouponCode:26 - Entered the correct Email ID.
+2025-08-14 19:40:13 INFO  TC_12_ApplyForCouponCode:29 - Entered the correct Password.
+2025-08-14 19:40:22 INFO  TC_12_ApplyForCouponCode:32 - Searched for a product.
+2025-08-14 19:40:24 INFO  TC_12_ApplyForCouponCode:36 - Clicked on Add to Cart Button
+2025-08-14 19:40:34 INFO  TC_12_ApplyForCouponCode:17 - **** TC 12 Starterd ****
+2025-08-14 19:40:38 INFO  TC_12_ApplyForCouponCode:26 - Entered the correct Email ID.
+2025-08-14 19:40:40 INFO  TC_12_ApplyForCouponCode:29 - Entered the correct Password.
+2025-08-14 19:40:44 INFO  TC_12_ApplyForCouponCode:32 - Searched for a product.
+2025-08-14 19:40:49 INFO  TC_12_ApplyForCouponCode:36 - Clicked on Add to Cart Button
+2025-08-14 19:40:51 INFO  TC_12_ApplyForCouponCode:38 - Clicked on Add Cart option - That navigate to Shopping Cart Page
+2025-08-14 19:40:57 INFO  TC_12_ApplyForCouponCode:42 - Clicked on Proceed to Buy Button.
+2025-08-14 19:40:57 INFO  TC_12_ApplyForCouponCode:46 - Entered incorrect Coupun Code.
+2025-08-14 19:40:57 INFO  TC_12_ApplyForCouponCode:48 - After that Clicked on Apply Button.
+2025-08-14 19:41:00 INFO  TC_12_ApplyForCouponCode:50 - Validation Message Checked.
+2025-08-14 19:41:00 INFO  TC_12_ApplyForCouponCode:52 - **** TC 12 Completed ****
+2025-08-14 19:41:09 INFO  TC_13_FiveStarRating:17 - **** TC 13 Starterd ****
+2025-08-14 19:41:13 INFO  TC_13_FiveStarRating:26 - Entered the correct Email ID.
+2025-08-14 19:41:15 INFO  TC_13_FiveStarRating:29 - Entered the correct Password.
+2025-08-14 19:41:20 INFO  TC_13_FiveStarRating:32 - Clicked on Orders that navigate to the 'Your Orders' details page.
+2025-08-14 19:41:22 INFO  TC_13_FiveStarRating:36 - Clicked on Buy Again option.
+2025-08-14 19:41:24 INFO  TC_13_FiveStarRating:38 - Clicked on Latest Bought Product.
+2025-08-14 19:41:27 INFO  TC_13_FiveStarRating:40 - Clicked on Star Icons.
+2025-08-14 19:41:28 INFO  TC_13_FiveStarRating:44 - Clicked on Write a Review.
+2025-08-14 19:41:29 INFO  TC_13_FiveStarRating:48 - Clicked on the 5th Star.
+2025-08-14 19:41:29 INFO  TC_13_FiveStarRating:52 - **** TC 13 Completed ****
+2025-08-14 19:41:39 INFO  TC_14_CartPageWithoutLogin:17 - **** TC 14 Starterd ****
+2025-08-14 19:41:45 INFO  TC_14_CartPageWithoutLogin:24 - Clicked on Add to Cart Button.
+2025-08-14 19:41:49 INFO  TC_14_CartPageWithoutLogin:26 - Clicked on Go to Cart Button.
+2025-08-14 19:41:49 INFO  TC_14_CartPageWithoutLogin:28 - **** TC 14 Completed ****

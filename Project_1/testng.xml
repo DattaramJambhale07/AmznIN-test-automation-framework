@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<!--
+  <test thread-count="5" name="TC_chrome">
+   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+   <class name="amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd"/>
+	<class name="amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail"/>
+	<class name="amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd"/>
+	<class name="amazon_EtoE.Project_1.TC_3_Edit_Profile"/>
+	<class name="amazon_EtoE.Project_1.TC_4_SearchProduct"/>
+	<class name="amazon_EtoE.Project_1.TC_5_Search_with_Filters"/>
+	<class name="amazon_EtoE.Project_1.TC_6_VerifyProductDetail"/>
+	<class name="amazon_EtoE.Project_1.TC_7_ProductSorting"/>
+	<class name="amazon_EtoE.Project_1.TC_8_AddToCart"/>
+	<class name="amazon_EtoE.Project_1.TC_9_UpdateProductsQty"/>
+	<class name="amazon_EtoE.Project_1.TC_10_CheckoutProcess"/>
+	<class name="amazon_EtoE.Project_1.TC_11_PaymentMethodSelection"/>
+	<class name="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode"/>
+	<class name="amazon_EtoE.Project_1.TC_13_FiveStarRating"/>
+	<class name="amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin"/>
+    </classes>
+  </test>
+  -->
+
+   <test thread-count="5" name="TC_edge">
+   <parameter name="browser" value="edge"></parameter>
+    <classes>
+
+    <class name="amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd"/>
+	<class name="amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail"/>
+	<class name="amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd"/>
+	<class name="amazon_EtoE.Project_1.TC_3_Edit_Profile"/>
+	<class name="amazon_EtoE.Project_1.TC_4_SearchProduct"/>
+	<class name="amazon_EtoE.Project_1.TC_5_Search_with_Filters"/>
+	<class name="amazon_EtoE.Project_1.TC_6_VerifyProductDetail"/>
+	<class name="amazon_EtoE.Project_1.TC_7_ProductSorting"/>
+	<class name="amazon_EtoE.Project_1.TC_8_AddToCart"/>
+	<class name="amazon_EtoE.Project_1.TC_9_UpdateProductsQty"/>
+	<class name="amazon_EtoE.Project_1.TC_10_CheckoutProcess"/>
+	<class name="amazon_EtoE.Project_1.TC_11_PaymentMethodSelection"/>
+	<class name="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode"/>
+	<class name="amazon_EtoE.Project_1.TC_13_FiveStarRating"/>
+	<class name="amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin"/>
+   	
+    </classes>
+  </test> <!-- Test -->
+
+<!--
+   <test thread-count="5" name="TC_firfox">
+    <parameter name="browser" value="firefox"></parameter>
+    <classes>
+    <class name="amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd"/>
+	<class name="amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail"/>
+	<class name="amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd"/>
+	<class name="amazon_EtoE.Project_1.TC_3_Edit_Profile"/>
+	<class name="amazon_EtoE.Project_1.TC_4_SearchProduct"/>
+	<class name="amazon_EtoE.Project_1.TC_5_Search_with_Filters"/>
+	<class name="amazon_EtoE.Project_1.TC_6_VerifyProductDetail"/>
+	<class name="amazon_EtoE.Project_1.TC_7_ProductSorting"/>
+	<class name="amazon_EtoE.Project_1.TC_8_AddToCart"/>
+	<class name="amazon_EtoE.Project_1.TC_9_UpdateProductsQty"/>
+	<class name="amazon_EtoE.Project_1.TC_10_CheckoutProcess"/>
+	<class name="amazon_EtoE.Project_1.TC_11_PaymentMethodSelection"/>
+	<class name="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode"/>
+	<class name="amazon_EtoE.Project_1.TC_13_FiveStarRating"/>
+	<class name="amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin"/>
+    </classes>
+  </test>   -->
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

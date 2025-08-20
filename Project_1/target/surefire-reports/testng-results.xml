@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="17" passed="15" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• Login fails for an incorrect email address.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• Login fails for an incorrect password.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The profile data has been edited successfully.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The product search was successful.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The product search was successful.]]>
+    </line>
+    <line>
+      <![CDATA[• Price range has been selected : ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Category has been selected : ✓]]>
+    </line>
+    <line>
+      <![CDATA[• The category and price range filter both are working properly.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• Product Title: ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Product Price: ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Product Reviews: ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Product Decreption: ✓]]>
+    </line>
+    <line>
+      <![CDATA[• The product detail page displays all necessary information, including the product title, price, reviews and description.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• Price: Low to High sorting : ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Price: High to Low sorting : ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Avg. Customer Review sorting : ✓]]>
+    </line>
+    <line>
+      <![CDATA[• Product sorting is done using filters for price, reviews, and relevancy.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The product was added to the cart.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The product was added to the cart.]]>
+    </line>
+    <line>
+      <![CDATA[• The Product Qty has been Updated.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The order review section has been displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The user is able to select each payment method one at a time.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The user is able to apply for a coupon code. Also an incorrect The coupon code has been entered.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• The user has successfully logged into their Amazon account.]]>
+    </line>
+    <line>
+      <![CDATA[• The Five Star Rating has been given to the Last Ordered Product.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+    <line>
+      <![CDATA[• Reached Till Cart Page without Login to the Amazon Application.]]>
+    </line>
+    <line>
+      <![CDATA[TC Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-08-14T19:33:21 IST" name="Suite" finished-at="2025-08-14T19:41:53 IST" duration-ms="511532">
+    <groups>
+    </groups>
+    <test started-at="2025-08-14T19:33:21 IST" name="TC_edge" finished-at="2025-08-14T19:41:53 IST" duration-ms="511532">
+      <class name="amazon_EtoE.Project_1.TC_7_ProductSorting">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_7_ProductSorting@15713d56]" started-at="2025-08-14T19:36:16 IST" name="browserlaunch" finished-at="2025-08-14T19:36:26 IST" duration-ms="9422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyProductSortedAccrdngToPrice()[pri:0, instance:amazon_EtoE.Project_1.TC_7_ProductSorting@15713d56]" started-at="2025-08-14T19:36:26 IST" name="verifyProductSortedAccrdngToPrice" finished-at="2025-08-14T19:36:51 IST" duration-ms="25011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• Price: Low to High sorting : ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Price: High to Low sorting : ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Avg. Customer Review sorting : ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Product sorting is done using filters for price, reviews, and relevancy.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductSortedAccrdngToPrice -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_7_ProductSorting@15713d56]" started-at="2025-08-14T19:36:52 IST" name="browserquit" finished-at="2025-08-14T19:36:55 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_7_ProductSorting -->
+      <class name="amazon_EtoE.Project_1.TC_11_PaymentMethodSelection">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_11_PaymentMethodSelection@7c8c9a05]" started-at="2025-08-14T19:38:55 IST" name="browserlaunch" finished-at="2025-08-14T19:39:12 IST" duration-ms="16268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validateCheckoutProcess()[pri:0, instance:amazon_EtoE.Project_1.TC_11_PaymentMethodSelection@7c8c9a05]" started-at="2025-08-14T19:39:12 IST" name="validateCheckoutProcess" finished-at="2025-08-14T19:39:58 IST" duration-ms="46174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The user is able to select each payment method one at a time.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutProcess -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_11_PaymentMethodSelection@7c8c9a05]" started-at="2025-08-14T19:39:58 IST" name="browserquit" finished-at="2025-08-14T19:40:02 IST" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_11_PaymentMethodSelection -->
+      <class name="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_12_ApplyForCouponCode@d41f816]" started-at="2025-08-14T19:40:02 IST" name="browserlaunch" finished-at="2025-08-14T19:40:07 IST" duration-ms="4875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method retried="true" signature="validateCheckoutProcess()[pri:0, instance:amazon_EtoE.Project_1.TC_12_ApplyForCouponCode@d41f816]" started-at="2025-08-14T19:40:07 IST" name="validateCheckoutProcess" finished-at="2025-08-14T19:40:25 IST" duration-ms="18373" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/gp/cart/view.html?ref_=nav_cart" aria-label="3 items in cart" class="nav-a nav-a-2 nav-progressive-attribute" id="nav-cart">...</a> is not clickable at point (1459, 30). Other element would receive the click: <div class="a-changeover-inner">...</div>
+  (Session info: MicrosoftEdge=135.0.3179.85)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [51f4b6f85d0aeb33d48eb2eeb22d41ad, clickElement {id=f.89661EDDCB70DD2E77845F7D0D9D22FE.d.3856A81DC4EEA07702A9B804F78DA7BF.e.763}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60110}, msedge: {msedgedriverVersion: 135.0.3179.98 (4215a10badb6..., userDataDir: C:\Users\AKSHAY~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60110/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (51f4b6f85d0aeb33d48eb2eeb22d41ad)] -> id: nav-cart]
+Session ID: 51f4b6f85d0aeb33d48eb2eeb22d41ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/gp/cart/view.html?ref_=nav_cart" aria-label="3 items in cart" class="nav-a nav-a-2 nav-progressive-attribute" id="nav-cart">...</a> is not clickable at point (1459, 30). Other element would receive the click: <div class="a-changeover-inner">...</div>
+  (Session info: MicrosoftEdge=135.0.3179.85)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [51f4b6f85d0aeb33d48eb2eeb22d41ad, clickElement {id=f.89661EDDCB70DD2E77845F7D0D9D22FE.d.3856A81DC4EEA07702A9B804F78DA7BF.e.763}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60110}, msedge: {msedgedriverVersion: 135.0.3179.98 (4215a10badb6..., userDataDir: C:\Users\AKSHAY~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60110/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (51f4b6f85d0aeb33d48eb2eeb22d41ad)] -> id: nav-cart]
+Session ID: 51f4b6f85d0aeb33d48eb2eeb22d41ad
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+at amazon_EtoE.Project_1.SearchProductPage.clickAddCart(SearchProductPage.java:91)
+at amazon_EtoE.Project_1.TC_12_ApplyForCouponCode.validateCheckoutProcess(TC_12_ApplyForCouponCode.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutProcess -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_12_ApplyForCouponCode@d41f816]" started-at="2025-08-14T19:40:25 IST" name="browserquit" finished-at="2025-08-14T19:40:29 IST" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_12_ApplyForCouponCode@d41f816]" started-at="2025-08-14T19:40:29 IST" name="browserlaunch" finished-at="2025-08-14T19:40:34 IST" duration-ms="5362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validateCheckoutProcess()[pri:0, instance:amazon_EtoE.Project_1.TC_12_ApplyForCouponCode@d41f816]" started-at="2025-08-14T19:40:34 IST" name="validateCheckoutProcess" finished-at="2025-08-14T19:41:00 IST" duration-ms="25258" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The user is able to apply for a coupon code. Also an incorrect The coupon code has been entered.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutProcess -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_12_ApplyForCouponCode@d41f816]" started-at="2025-08-14T19:41:00 IST" name="browserquit" finished-at="2025-08-14T19:41:04 IST" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_12_ApplyForCouponCode -->
+      <class name="amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd@132e0cc]" started-at="2025-08-14T19:34:05 IST" name="browserlaunch" finished-at="2025-08-14T19:34:10 IST" duration-ms="4871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalid_password()[pri:0, instance:amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd@132e0cc]" started-at="2025-08-14T19:34:10 IST" name="invalid_password" finished-at="2025-08-14T19:34:16 IST" duration-ms="6855" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• Login fails for an incorrect password.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalid_password -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd@132e0cc]" started-at="2025-08-14T19:34:18 IST" name="browserquit" finished-at="2025-08-14T19:34:22 IST" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd -->
+      <class name="amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail@2c78d320]" started-at="2025-08-14T19:33:48 IST" name="browserlaunch" finished-at="2025-08-14T19:33:56 IST" duration-ms="7663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalid_email()[pri:0, instance:amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail@2c78d320]" started-at="2025-08-14T19:33:56 IST" name="invalid_email" finished-at="2025-08-14T19:34:01 IST" duration-ms="4884" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• Login fails for an incorrect email address.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalid_email -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail@2c78d320]" started-at="2025-08-14T19:34:01 IST" name="browserquit" finished-at="2025-08-14T19:34:05 IST" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail -->
+      <class name="amazon_EtoE.Project_1.TC_8_AddToCart">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_8_AddToCart@63f259c3]" started-at="2025-08-14T19:36:55 IST" name="browserlaunch" finished-at="2025-08-14T19:37:02 IST" duration-ms="7025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="productAddedToTheCard()[pri:0, instance:amazon_EtoE.Project_1.TC_8_AddToCart@63f259c3]" started-at="2025-08-14T19:37:02 IST" name="productAddedToTheCard" finished-at="2025-08-14T19:37:20 IST" duration-ms="17762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The product was added to the cart.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productAddedToTheCard -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_8_AddToCart@63f259c3]" started-at="2025-08-14T19:37:20 IST" name="browserquit" finished-at="2025-08-14T19:37:24 IST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_8_AddToCart -->
+      <class name="amazon_EtoE.Project_1.TC_4_SearchProduct">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_4_SearchProduct@106cc338]" started-at="2025-08-14T19:34:52 IST" name="browserlaunch" finished-at="2025-08-14T19:34:58 IST" duration-ms="5998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="searchproduct()[pri:0, instance:amazon_EtoE.Project_1.TC_4_SearchProduct@106cc338]" started-at="2025-08-14T19:34:58 IST" name="searchproduct" finished-at="2025-08-14T19:35:14 IST" duration-ms="16152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The product search was successful.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_4_SearchProduct@106cc338]" started-at="2025-08-14T19:35:14 IST" name="browserquit" finished-at="2025-08-14T19:35:18 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_4_SearchProduct -->
+      <class name="amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd@16eccb2e]" started-at="2025-08-14T19:33:21 IST" name="browserlaunch" finished-at="2025-08-14T19:33:31 IST" duration-ms="9740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validTC()[pri:0, instance:amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd@16eccb2e]" started-at="2025-08-14T19:33:31 IST" name="validTC" finished-at="2025-08-14T19:33:39 IST" duration-ms="8217" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validTC -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd@16eccb2e]" started-at="2025-08-14T19:33:44 IST" name="browserquit" finished-at="2025-08-14T19:33:48 IST" duration-ms="3801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd -->
+      <class name="amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin@60129b9a]" started-at="2025-08-14T19:41:33 IST" name="browserlaunch" finished-at="2025-08-14T19:41:39 IST" duration-ms="6407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validateCheckoutProcess()[pri:0, instance:amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin@60129b9a]" started-at="2025-08-14T19:41:39 IST" name="validateCheckoutProcess" finished-at="2025-08-14T19:41:49 IST" duration-ms="9817" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• Reached Till Cart Page without Login to the Amazon Application.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutProcess -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin@60129b9a]" started-at="2025-08-14T19:41:49 IST" name="browserquit" finished-at="2025-08-14T19:41:53 IST" duration-ms="3579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin -->
+      <class name="amazon_EtoE.Project_1.TC_5_Search_with_Filters">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_5_Search_with_Filters@7a67e3c6]" started-at="2025-08-14T19:35:18 IST" name="browserlaunch" finished-at="2025-08-14T19:35:24 IST" duration-ms="5699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="serachResult_Filtersfunctionality()[pri:0, instance:amazon_EtoE.Project_1.TC_5_Search_with_Filters@7a67e3c6]" started-at="2025-08-14T19:35:24 IST" name="serachResult_Filtersfunctionality" finished-at="2025-08-14T19:35:43 IST" duration-ms="18994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The product search was successful.]]>
+            </line>
+            <line>
+              <![CDATA[• Price range has been selected : ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Category has been selected : ✓]]>
+            </line>
+            <line>
+              <![CDATA[• The category and price range filter both are working properly.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- serachResult_Filtersfunctionality -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_5_Search_with_Filters@7a67e3c6]" started-at="2025-08-14T19:35:43 IST" name="browserquit" finished-at="2025-08-14T19:35:47 IST" duration-ms="3661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_5_Search_with_Filters -->
+      <class name="amazon_EtoE.Project_1.TC_3_Edit_Profile">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_3_Edit_Profile@7b205dbd]" started-at="2025-08-14T19:34:22 IST" name="browserlaunch" finished-at="2025-08-14T19:34:30 IST" duration-ms="7820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="editprofileinfo()[pri:0, instance:amazon_EtoE.Project_1.TC_3_Edit_Profile@7b205dbd]" started-at="2025-08-14T19:34:30 IST" name="editprofileinfo" finished-at="2025-08-14T19:34:48 IST" duration-ms="18198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The profile data has been edited successfully.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editprofileinfo -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_3_Edit_Profile@7b205dbd]" started-at="2025-08-14T19:34:48 IST" name="browserquit" finished-at="2025-08-14T19:34:52 IST" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_3_Edit_Profile -->
+      <class name="amazon_EtoE.Project_1.TC_6_VerifyProductDetail">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_6_VerifyProductDetail@6cc558c6]" started-at="2025-08-14T19:35:47 IST" name="browserlaunch" finished-at="2025-08-14T19:35:53 IST" duration-ms="5736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyNcssryProductinfo()[pri:0, instance:amazon_EtoE.Project_1.TC_6_VerifyProductDetail@6cc558c6]" started-at="2025-08-14T19:35:53 IST" name="verifyNcssryProductinfo" finished-at="2025-08-14T19:36:12 IST" duration-ms="19859" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• Product Title: ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Product Price: ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Product Reviews: ✓]]>
+            </line>
+            <line>
+              <![CDATA[• Product Decreption: ✓]]>
+            </line>
+            <line>
+              <![CDATA[• The product detail page displays all necessary information, including the product title, price, reviews and description.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNcssryProductinfo -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_6_VerifyProductDetail@6cc558c6]" started-at="2025-08-14T19:36:13 IST" name="browserquit" finished-at="2025-08-14T19:36:16 IST" duration-ms="3733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_6_VerifyProductDetail -->
+      <class name="amazon_EtoE.Project_1.TC_9_UpdateProductsQty">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_9_UpdateProductsQty@26ceffa8]" started-at="2025-08-14T19:37:24 IST" name="browserlaunch" finished-at="2025-08-14T19:37:30 IST" duration-ms="5639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="productQTYUpdate()[pri:0, instance:amazon_EtoE.Project_1.TC_9_UpdateProductsQty@26ceffa8]" started-at="2025-08-14T19:37:30 IST" name="productQTYUpdate" finished-at="2025-08-14T19:37:51 IST" duration-ms="21656" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The product was added to the cart.]]>
+            </line>
+            <line>
+              <![CDATA[• The Product Qty has been Updated.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productQTYUpdate -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_9_UpdateProductsQty@26ceffa8]" started-at="2025-08-14T19:37:52 IST" name="browserquit" finished-at="2025-08-14T19:37:55 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_9_UpdateProductsQty -->
+      <class name="amazon_EtoE.Project_1.TC_10_CheckoutProcess">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_10_CheckoutProcess@600b90df]" started-at="2025-08-14T19:37:55 IST" name="browserlaunch" finished-at="2025-08-14T19:38:09 IST" duration-ms="13871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validateCheckoutProcess()[pri:0, instance:amazon_EtoE.Project_1.TC_10_CheckoutProcess@600b90df]" started-at="2025-08-14T19:38:09 IST" name="validateCheckoutProcess" finished-at="2025-08-14T19:38:51 IST" duration-ms="42261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The order review section has been displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutProcess -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_10_CheckoutProcess@600b90df]" started-at="2025-08-14T19:38:52 IST" name="browserquit" finished-at="2025-08-14T19:38:55 IST" duration-ms="3806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_10_CheckoutProcess -->
+      <class name="amazon_EtoE.Project_1.TC_13_FiveStarRating">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon_EtoE.Project_1.TC_13_FiveStarRating@5c2375a9]" started-at="2025-08-14T19:41:04 IST" name="browserlaunch" finished-at="2025-08-14T19:41:09 IST" duration-ms="5406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validateCheckoutProcess()[pri:0, instance:amazon_EtoE.Project_1.TC_13_FiveStarRating@5c2375a9]" started-at="2025-08-14T19:41:09 IST" name="validateCheckoutProcess" finished-at="2025-08-14T19:41:29 IST" duration-ms="19482" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[• The user has successfully logged into their Amazon account.]]>
+            </line>
+            <line>
+              <![CDATA[• The Five Star Rating has been given to the Last Ordered Product.]]>
+            </line>
+            <line>
+              <![CDATA[TC Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutProcess -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon_EtoE.Project_1.TC_13_FiveStarRating@5c2375a9]" started-at="2025-08-14T19:41:29 IST" name="browserquit" finished-at="2025-08-14T19:41:33 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon_EtoE.Project_1.TC_13_FiveStarRating -->
+    </test> <!-- TC_edge -->
+  </suite> <!-- Suite -->
+</testng-results>

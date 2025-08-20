@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="514.385" tests="16" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Akshay Jambhale\eclipse-workspace\Project_1\target\test-classes;C:\Users\Akshay Jambhale\eclipse-workspace\Project_1\target\classes;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Akshay Jambhale\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Akshay Jambhale\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Akshay Jambhale\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Akshay Jambhale\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akshay Jambhale\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Akshay Jambhale\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Akshay Jambhale\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Akshay Jambhale\AppData\Local\Temp\surefire12581150025187050115\surefirebooter-20250814193316892_3.jar C:\Users\Akshay Jambhale\AppData\Local\Temp\surefire12581150025187050115 2025-08-14T19-33-16_489-jvmRun1 surefire-20250814193316892_1tmp surefire_0-20250814193316892_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Akshay Jambhale\eclipse-workspace\Project_1\target\test-classes;C:\Users\Akshay Jambhale\eclipse-workspace\Project_1\target\classes;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\Akshay Jambhale\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\Akshay Jambhale\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Akshay Jambhale\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Akshay Jambhale\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Akshay Jambhale\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Akshay Jambhale\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akshay Jambhale\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Akshay Jambhale\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akshay Jambhale\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\Akshay Jambhale\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Akshay Jambhale"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\Akshay Jambhale\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Akshay Jambhale\eclipse-workspace\Project_1"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Akshay Jambhale\AppData\Local\Temp\surefire12581150025187050115\surefirebooter-20250814193316892_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7"/>
+    <property name="user.name" value="Akshay Jambhale"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23.0.2+7"/>
+    <property name="localRepository" value="C:\Users\Akshay Jambhale\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKSHAY~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\Akshay Jambhale\eclipse-workspace\Project_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Akshay Jambhale\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Akshay Jambhale/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin/server;C:/Users/Akshay Jambhale/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\app\Oracle12C\product\12.1.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Jar Files\apache-ant-1.9.16\bin;C:\Jar Files\apache-maven-3.8.7\bin;C:\Jar Files\apache-maven-4.0.0-alpha-3\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Git\cmd;C:\Users\Akshay Jambhale\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Users\Akshay Jambhale\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="validTC" classname="amazon_EtoE.Project_1.TC_1_Login_with_correct_EmailPwd" time="8.24">
+    <system-out><![CDATA[19:33:31 [TestNG-tests-1] INFO  - **** TC 1 Starterd ****
+19:33:38 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:33:39 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:33:39 [TestNG-tests-1] INFO  - **** TC 1 Completed ****
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 14, 2025 7:33:22 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="invalid_email" classname="amazon_EtoE.Project_1.TC_2_A_Login_with_incorrectEmail" time="4.89">
+    <system-out><![CDATA[19:33:56 [TestNG-tests-1] INFO  - **** TC 2A Starterd ****
+19:34:01 [TestNG-tests-1] INFO  - Entered an Incorrect Email Address.
+19:34:01 [TestNG-tests-1] INFO  - **** TC 2A Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:33:49 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="invalid_password" classname="amazon_EtoE.Project_1.TC_2_B_Login_with_incorrectPwd" time="6.848">
+    <system-out><![CDATA[19:34:10 [TestNG-tests-1] INFO  - **** TC 2B Starterd ****
+19:34:14 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:34:16 [TestNG-tests-1] INFO  - Entered an Incorrect Password.
+19:34:16 [TestNG-tests-1] INFO  - **** TC 2B Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:34:05 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="editprofileinfo" classname="amazon_EtoE.Project_1.TC_3_Edit_Profile" time="18.197">
+    <system-out><![CDATA[19:34:30 [TestNG-tests-1] INFO  - **** TC 3 Starterd ****
+19:34:36 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:34:37 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:34:42 [TestNG-tests-1] INFO  - Clicked on Manage Profile.
+19:34:43 [TestNG-tests-1] INFO  - Clicked on View button.
+19:34:47 [TestNG-tests-1] INFO  - Clicked on the Age Group.
+19:34:47 [TestNG-tests-1] INFO  - Clicked on the Add Button.
+19:34:48 [TestNG-tests-1] INFO  - Age Group Selected.
+19:34:48 [TestNG-tests-1] INFO  - Saved selected age data.
+19:34:48 [TestNG-tests-1] INFO  - Profile data edited successfully.
+19:34:48 [TestNG-tests-1] INFO  - **** TC 3 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:34:22 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="searchproduct" classname="amazon_EtoE.Project_1.TC_4_SearchProduct" time="16.159">
+    <system-out><![CDATA[19:34:58 [TestNG-tests-1] INFO  - **** TC 4 Starterd ****
+19:35:03 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:35:04 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:35:14 [TestNG-tests-1] INFO  - Searched for a product.
+19:35:14 [TestNG-tests-1] INFO  - The product search was successful.
+19:35:14 [TestNG-tests-1] INFO  - **** TC 4 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:34:52 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="serachResult_Filtersfunctionality" classname="amazon_EtoE.Project_1.TC_5_Search_with_Filters" time="18.993">
+    <system-out><![CDATA[19:35:24 [TestNG-tests-1] INFO  - **** TC 5 Starterd ****
+19:35:28 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:35:30 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:35:34 [TestNG-tests-1] INFO  - Searched for a product.
+19:35:38 [TestNG-tests-1] INFO  - The product search was successful.
+19:35:39 [TestNG-tests-1] INFO  - Price range selected ✅
+19:35:43 [TestNG-tests-1] INFO  - Category selected ✅
+19:35:43 [TestNG-tests-1] INFO  - **** TC 5 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:35:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="verifyNcssryProductinfo" classname="amazon_EtoE.Project_1.TC_6_VerifyProductDetail" time="19.869">
+    <system-out><![CDATA[19:35:53 [TestNG-tests-1] INFO  - **** TC 6 Starterd ****
+19:35:56 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:35:58 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:36:06 [TestNG-tests-1] INFO  - Searched for a product.
+19:36:12 [TestNG-tests-1] INFO  - Clicked on the Search Product.
+19:36:12 [TestNG-tests-1] INFO  - Checked all necessary information, including the product title, price, reviews and description.
+19:36:12 [TestNG-tests-1] INFO  - **** TC 6 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:35:47 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductSortedAccrdngToPrice" classname="amazon_EtoE.Project_1.TC_7_ProductSorting" time="25.01">
+    <system-out><![CDATA[19:36:26 [TestNG-tests-1] INFO  - **** TC 7 Starterd ****
+19:36:31 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:36:33 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:36:42 [TestNG-tests-1] INFO  - Searched for a product.
+19:36:51 [TestNG-tests-1] INFO  - Product sorting is done using filters for price, reviews, and relevancy.
+19:36:51 [TestNG-tests-1] INFO  - **** TC 7 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:36:17 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="productAddedToTheCard" classname="amazon_EtoE.Project_1.TC_8_AddToCart" time="17.761">
+    <system-out><![CDATA[19:37:02 [TestNG-tests-1] INFO  - **** TC 8 Starterd ****
+19:37:06 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:37:08 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:37:16 [TestNG-tests-1] INFO  - Searched for a product.
+19:37:17 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button.
+19:37:20 [TestNG-tests-1] INFO  - Clicked on Add Cart option - That navigate to Shopping Cart Page
+19:37:20 [TestNG-tests-1] INFO  - The product was added to the cart.
+19:37:20 [TestNG-tests-1] INFO  - **** TC 8 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:36:56 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="productQTYUpdate" classname="amazon_EtoE.Project_1.TC_9_UpdateProductsQty" time="21.654">
+    <system-out><![CDATA[19:37:30 [TestNG-tests-1] INFO  - **** TC 9 Starterd ****
+19:37:34 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:37:35 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:37:42 [TestNG-tests-1] INFO  - Searched for a product.
+19:37:44 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button
+19:37:46 [TestNG-tests-1] INFO  - Clicked on Add Cart option - That navigate to Shopping Cart Page
+19:37:46 [TestNG-tests-1] INFO  - The product was added to the cart.
+19:37:48 [TestNG-tests-1] INFO  - Clicked on '-' sign to Remove Qty.
+19:37:49 [TestNG-tests-1] INFO  - Clicked on '+' sign to Add Qty.
+19:37:51 [TestNG-tests-1] INFO  - Clicked on Delete to delete All Qty.
+19:37:51 [TestNG-tests-1] INFO  - **** TC 9 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:37:24 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateCheckoutProcess" classname="amazon_EtoE.Project_1.TC_10_CheckoutProcess" time="42.263">
+    <system-out><![CDATA[19:38:09 [TestNG-tests-1] INFO  - **** TC 10 Starterd ****
+19:38:15 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:38:17 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:38:38 [TestNG-tests-1] INFO  - Searched for a product.
+19:38:39 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button.
+19:38:46 [TestNG-tests-1] INFO  - Clicked on Add Cart option - That navigate to Shopping Cart Page
+19:38:51 [TestNG-tests-1] INFO  - Clicked on Proceed to Buy Button.
+19:38:51 [TestNG-tests-1] INFO  - Validation for Checkout Address: ✓
+19:38:51 [TestNG-tests-1] INFO  - Validation for Payment Method: ✓
+19:38:51 [TestNG-tests-1] INFO  - Validation for Order Review: ✓
+19:38:51 [TestNG-tests-1] INFO  - **** TC 10 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:37:56 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateCheckoutProcess" classname="amazon_EtoE.Project_1.TC_11_PaymentMethodSelection" time="46.173">
+    <system-out><![CDATA[19:39:12 [TestNG-tests-1] INFO  - **** TC 11 Starterd ****
+19:39:19 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:39:21 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:39:39 [TestNG-tests-1] INFO  - Searched for a product.
+19:39:40 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button.
+19:39:43 [TestNG-tests-1] INFO  - Clicked on Add Cart option - That navigate to Shopping Cart Page
+19:39:49 [TestNG-tests-1] INFO  - Clicked on Proceed to Buy Button.
+19:39:50 [TestNG-tests-1] INFO  - Credit and Debit Card Payment Options: ✓
+19:39:52 [TestNG-tests-1] INFO  - Amazon Pay Option: ✓
+19:39:53 [TestNG-tests-1] INFO  - UPI Payment Option: ✓
+19:39:54 [TestNG-tests-1] INFO  - Another Payment Method: Credit or Debit Card Option: ✓
+19:39:55 [TestNG-tests-1] INFO  - Another payment method: Net Banking is availble: ✓
+19:39:57 [TestNG-tests-1] INFO  - Another payment method: Other UPI Apps is availble: ✓
+19:39:58 [TestNG-tests-1] INFO  - Another payment method: COD / POD: ✓ 
+19:39:58 [TestNG-tests-1] INFO  - **** TC 11 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:38:56 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateCheckoutProcess" classname="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode" time="0.0">
+    <skipped message="element click intercepted: Element &lt;a href=&quot;/gp/cart/view.html?ref_=nav_cart&quot; aria-label=&quot;3 items in cart&quot; class=&quot;nav-a nav-a-2 nav-progressive-attribute&quot; id=&quot;nav-cart&quot;&gt;...&lt;/a&gt; is not clickable at point (1459, 30). Other element would receive the click: &lt;div class=&quot;a-changeover-inner&quot;&gt;...&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=135.0.3179.85)&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [51f4b6f85d0aeb33d48eb2eeb22d41ad, clickElement {id=f.89661EDDCB70DD2E77845F7D0D9D22FE.d.3856A81DC4EEA07702A9B804F78DA7BF.e.763}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.85, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60110}, msedge: {msedgedriverVersion: 135.0.3179.98 (4215a10badb6..., userDataDir: C:\Users\AKSHAY~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60110/devtoo..., se:cdpVersion: 135.0.3179.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (51f4b6f85d0aeb33d48eb2eeb22d41ad)] -&gt; id: nav-cart]&#10;Session ID: 51f4b6f85d0aeb33d48eb2eeb22d41ad"/>
+    <system-out><![CDATA[19:40:07 [TestNG-tests-1] INFO  - **** TC 12 Starterd ****
+19:40:12 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:40:13 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:40:22 [TestNG-tests-1] INFO  - Searched for a product.
+19:40:24 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:40:02 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateCheckoutProcess" classname="amazon_EtoE.Project_1.TC_12_ApplyForCouponCode" time="25.255">
+    <system-out><![CDATA[19:40:34 [TestNG-tests-1] INFO  - **** TC 12 Starterd ****
+19:40:38 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:40:40 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:40:44 [TestNG-tests-1] INFO  - Searched for a product.
+19:40:49 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button
+19:40:51 [TestNG-tests-1] INFO  - Clicked on Add Cart option - That navigate to Shopping Cart Page
+19:40:57 [TestNG-tests-1] INFO  - Clicked on Proceed to Buy Button.
+19:40:57 [TestNG-tests-1] INFO  - Entered incorrect Coupun Code.
+19:40:57 [TestNG-tests-1] INFO  - After that Clicked on Apply Button.
+19:41:00 [TestNG-tests-1] INFO  - Validation Message Checked.
+19:41:00 [TestNG-tests-1] INFO  - **** TC 12 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:40:29 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateCheckoutProcess" classname="amazon_EtoE.Project_1.TC_13_FiveStarRating" time="19.483">
+    <system-out><![CDATA[19:41:09 [TestNG-tests-1] INFO  - **** TC 13 Starterd ****
+19:41:13 [TestNG-tests-1] INFO  - Entered the correct Email ID.
+19:41:15 [TestNG-tests-1] INFO  - Entered the correct Password.
+19:41:20 [TestNG-tests-1] INFO  - Clicked on Orders that navigate to the 'Your Orders' details page.
+19:41:22 [TestNG-tests-1] INFO  - Clicked on Buy Again option.
+19:41:24 [TestNG-tests-1] INFO  - Clicked on Latest Bought Product.
+19:41:27 [TestNG-tests-1] INFO  - Clicked on Star Icons.
+19:41:28 [TestNG-tests-1] INFO  - Clicked on Write a Review.
+19:41:29 [TestNG-tests-1] INFO  - Clicked on the 5th Star.
+19:41:29 [TestNG-tests-1] INFO  - **** TC 13 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:41:04 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+  <testcase name="validateCheckoutProcess" classname="amazon_EtoE.Project_1.TC_14_CartPageWithoutLogin" time="9.818">
+    <system-out><![CDATA[19:41:39 [TestNG-tests-1] INFO  - **** TC 14 Starterd ****
+19:41:45 [TestNG-tests-1] INFO  - Clicked on Add to Cart Button.
+19:41:49 [TestNG-tests-1] INFO  - Clicked on Go to Cart Button.
+19:41:49 [TestNG-tests-1] INFO  - **** TC 14 Completed ****
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2025 7:41:33 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_135_WINDOWS)); using driver found in the cache
+]]></system-err>
+  </testcase>
+</testsuite>
